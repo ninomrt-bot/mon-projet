@@ -1,0 +1,5857 @@
+[
+  {
+    "id": "16a746c4-03fd-4bfb-ba23-cffd760a4659",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:09.781Z"
+  },
+  {
+    "id": "3e7b855e-547d-4a07-b0ed-ff563db82775",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:10.008Z"
+  },
+  {
+    "id": "b8cbab4e-9e29-4bc5-a850-77d99fcc674f",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:10.231Z"
+  },
+  {
+    "id": "917b513d-8f4c-4145-ad8d-aa37eb4f5293",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:10.464Z"
+  },
+  {
+    "id": "42c8e835-3f7f-40e7-97d1-5d8d668ab7cb",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:10.702Z"
+  },
+  {
+    "id": "3031acc5-f481-4dc3-9df3-089d24db5b04",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:10.878Z"
+  },
+  {
+    "id": "02d31830-34c8-47db-ad4a-a09f4c29c568",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:11.112Z"
+  },
+  {
+    "id": "0ca15640-19d1-413d-83a3-423811214408",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:11.311Z"
+  },
+  {
+    "id": "ef263b6f-39aa-4b3a-a754-f37d8c1c9ff2",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:11.664Z"
+  },
+  {
+    "id": "8b637a5b-53a9-437f-b902-fbe97d07c554",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:11.901Z"
+  },
+  {
+    "id": "058dd90b-fff9-4af7-85ce-240992778da9",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:12.207Z"
+  },
+  {
+    "id": "c7232ae4-28ad-42f8-9b47-6a72e5505d9d",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 84,
+    "newValue": 84,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:12.409Z"
+  },
+  {
+    "id": "27d50d2b-1e0f-4891-b4aa-35e80b24d0fd",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:17:12.694Z"
+  },
+  {
+    "id": "2c8aee2c-882e-41ca-8c29-1fdc56909217",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:17.425Z"
+  },
+  {
+    "id": "0865fd90-2905-4992-93ed-e161ce494754",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:17.631Z"
+  },
+  {
+    "id": "b01e6a35-5a2e-4629-b70b-c5ffdac763b5",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:17.757Z"
+  },
+  {
+    "id": "c3622c74-8c39-4240-b220-e82cf684e9eb",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:17.876Z"
+  },
+  {
+    "id": "ca0ef920-9d1b-46ce-9e32-525e2cf27962",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:17.997Z"
+  },
+  {
+    "id": "eae8401a-35e7-4a2d-be93-d08f42f51e8c",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.156Z"
+  },
+  {
+    "id": "f00a95e7-0950-4a23-82e2-376a05b2fc6f",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.276Z"
+  },
+  {
+    "id": "86a80e56-83cf-4ab3-953c-ff00002467e0",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.395Z"
+  },
+  {
+    "id": "ce311f04-6bdc-474d-b843-6a7f81f11601",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.516Z"
+  },
+  {
+    "id": "5f0a8ab5-3344-4065-a47d-e0619c31f451",
+    "type": "stock_update",
+    "ref": "EL5101",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.685Z"
+  },
+  {
+    "id": "e34a7618-51be-4b60-9bff-0a2901b8ceb2",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 7,
+    "newValue": 4,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.808Z"
+  },
+  {
+    "id": "232c437a-5dcc-46e9-8f79-7c4c257d42eb",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:18.927Z"
+  },
+  {
+    "id": "efb4e143-e556-4c9c-93c1-c31fb8990363",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 7,
+    "newValue": 4,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:19.188Z"
+  },
+  {
+    "id": "0e2fc3aa-2e68-40ef-bbbd-4ff713f02c54",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 17,
+    "newValue": 8,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:19.506Z"
+  },
+  {
+    "id": "6b1f47ff-bece-44e0-85c9-dbf5bf809856",
+    "type": "stock_update",
+    "ref": "09140006466",
+    "field": "Qte stock",
+    "oldValue": 21,
+    "newValue": 12,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:19.634Z"
+  },
+  {
+    "id": "f00009f5-7478-4f21-a998-fab6f62d725e",
+    "type": "stock_update",
+    "ref": "09140014623",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:19.748Z"
+  },
+  {
+    "id": "229a4e96-2062-4a05-a210-768473a65b28",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:19.863Z"
+  },
+  {
+    "id": "e9846d2a-0f61-4cb8-ba04-3840a993d294",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:19.980Z"
+  },
+  {
+    "id": "82c2b099-45b0-4ca3-99aa-852081404491",
+    "type": "stock_update",
+    "ref": "09140020311",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.107Z"
+  },
+  {
+    "id": "89e21e93-f993-478c-a6ec-6e3c7d7b4f1a",
+    "type": "stock_update",
+    "ref": "09140033501",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.223Z"
+  },
+  {
+    "id": "f8a1b7e7-39aa-4f06-b1a1-6ea11a58f09a",
+    "type": "stock_update",
+    "ref": "09140253001",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.344Z"
+  },
+  {
+    "id": "2ba806cc-e13a-47f9-b144-b82f411ab9cd",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 7,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.470Z"
+  },
+  {
+    "id": "fa831ac8-f0ce-4241-9d5b-36bfd83dadaf",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 203,
+    "newValue": 152,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.740Z"
+  },
+  {
+    "id": "3f5bd3a1-ee3d-4f5f-88a2-0a55a6bc499b",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 206,
+    "newValue": 155,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.861Z"
+  },
+  {
+    "id": "1dccb9f2-b182-4a3e-b2f8-abc8b874aebe",
+    "type": "stock_update",
+    "ref": "19140020402",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:20.981Z"
+  },
+  {
+    "id": "c3a61f7a-1dc1-4a90-89c8-9e02f62a2c43",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:21.248Z"
+  },
+  {
+    "id": "8a233735-6b87-4a52-92ca-4c69274edbdd",
+    "type": "stock_update",
+    "ref": "050445",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:21.510Z"
+  },
+  {
+    "id": "d4a51d02-ade2-4927-b7dd-f919ab07b3dc",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:21.648Z"
+  },
+  {
+    "id": "f591f76f-f146-4c6d-834e-cb0cbbe4efe8",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 5,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:21.767Z"
+  },
+  {
+    "id": "da6ccd3e-64cd-490a-953e-32aae05310a0",
+    "type": "stock_update",
+    "ref": "1060.000",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:21.959Z"
+  },
+  {
+    "id": "f4661a85-d93a-4724-8cea-c3bfd03caae4",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.086Z"
+  },
+  {
+    "id": "fa945f39-8b12-465e-a5a3-ce92affe4def",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 34,
+    "newValue": 31,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.205Z"
+  },
+  {
+    "id": "b01bb8d3-98e6-4450-8f0a-c6163602c172",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 30,
+    "newValue": 21,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.323Z"
+  },
+  {
+    "id": "69aa2054-6ed1-4970-b167-032ca6f1ca26",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.442Z"
+  },
+  {
+    "id": "a42ca6e9-8db3-44be-ab72-b6486e90c3d6",
+    "type": "stock_update",
+    "ref": "621-2271",
+    "field": "Qte stock",
+    "oldValue": 10,
+    "newValue": 4,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.568Z"
+  },
+  {
+    "id": "2f0a997b-5e73-44c2-84fc-8d53ab8d484f",
+    "type": "stock_update",
+    "ref": "877-1848",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.696Z"
+  },
+  {
+    "id": "38ad783a-837d-4f73-9651-ea22a41f1b78",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.818Z"
+  },
+  {
+    "id": "4ace7e11-3f37-4d83-abf3-66b366f8209d",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:22.937Z"
+  },
+  {
+    "id": "6abcc722-2f86-423c-8c65-f15a20d6ece1",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.062Z"
+  },
+  {
+    "id": "d3bbb3d3-b696-4a16-a228-bf3e2d09f205",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.186Z"
+  },
+  {
+    "id": "febf49f3-4e45-42d5-a9a8-6244fbc55783",
+    "type": "stock_update",
+    "ref": "BSH0553T12A2A",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.302Z"
+  },
+  {
+    "id": "956eb3b2-ea4a-44b4-a1cd-44c1d0a23f0f",
+    "type": "stock_update",
+    "ref": "LP1K0910BD",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.429Z"
+  },
+  {
+    "id": "ca225d77-4e01-46f8-86cb-10ab80f46110",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.614Z"
+  },
+  {
+    "id": "4d77349d-e93b-4e7e-ac00-1da79dd453bc",
+    "type": "stock_update",
+    "ref": "NSYCAG92LPF",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.732Z"
+  },
+  {
+    "id": "199a2ea8-57b9-4e87-850f-99857d2e5fa6",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.848Z"
+  },
+  {
+    "id": "0b7bc51b-c25a-4454-a68b-08ff0444ce2c",
+    "type": "stock_update",
+    "ref": "NSYCVF38M230PF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:23.965Z"
+  },
+  {
+    "id": "991add2d-1013-4994-b0f1-d3f8a41004db",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.087Z"
+  },
+  {
+    "id": "532b1978-a1fe-4ce3-a1ec-4a3d45441123",
+    "type": "stock_update",
+    "ref": "VCF0",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.272Z"
+  },
+  {
+    "id": "8bc8e1a5-8ab8-413f-82e9-da2494674215",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.386Z"
+  },
+  {
+    "id": "18b0c63e-71ed-4d2a-a3e0-74ea0b0d5caf",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.502Z"
+  },
+  {
+    "id": "ad88bc1e-b0ef-4559-b5da-7fc2750f9297",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.630Z"
+  },
+  {
+    "id": "35a71a01-75ce-4d7f-bff4-fe8f0f1f2907",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.749Z"
+  },
+  {
+    "id": "98ca3325-ab54-4e81-b5d1-100b3afac13d",
+    "type": "stock_update",
+    "ref": "ZB4BD2",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.864Z"
+  },
+  {
+    "id": "eea66e56-78a9-451b-a808-ca172289cc65",
+    "type": "stock_update",
+    "ref": "ZB4BZ009",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 15,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:24.979Z"
+  },
+  {
+    "id": "b5726f45-4423-46a7-9578-8a2caf62e7c1",
+    "type": "stock_update",
+    "ref": "ZBE1015",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 15,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.102Z"
+  },
+  {
+    "id": "ee656e67-e268-4173-98ea-f021d782284a",
+    "type": "stock_update",
+    "ref": "3SK1111-1AB30",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.289Z"
+  },
+  {
+    "id": "333b4324-dec8-468e-ae93-e9c340f86f97",
+    "type": "stock_update",
+    "ref": "VX210AGA",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.403Z"
+  },
+  {
+    "id": "2a1b5781-e615-42d0-8130-962341983db0",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.519Z"
+  },
+  {
+    "id": "fd869980-6abb-4067-ba8e-63e7877b2cde",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.713Z"
+  },
+  {
+    "id": "ac3f07e6-29c4-49e4-8a57-eafcc900b58e",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.833Z"
+  },
+  {
+    "id": "0d0bff69-79c3-4068-8d3e-1138df732b1e",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:25.956Z"
+  },
+  {
+    "id": "6c7452f0-55a3-4d2e-8fab-d11afc6fe588",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.090Z"
+  },
+  {
+    "id": "e76c5c8d-efff-4700-9187-29206c7b12be",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.216Z"
+  },
+  {
+    "id": "17772b13-9b81-4739-b757-ee816962b3fb",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 66,
+    "newValue": 57,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.402Z"
+  },
+  {
+    "id": "f297fbc5-11c4-4740-9659-aaef142498da",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 60,
+    "newValue": 51,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.521Z"
+  },
+  {
+    "id": "5dc6b8c3-1e70-44ab-9a29-d0c94f28398f",
+    "type": "stock_update",
+    "ref": "2787-2144",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.651Z"
+  },
+  {
+    "id": "70d51265-5745-4f97-a3e3-fba4a48b8dba",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.771Z"
+  },
+  {
+    "id": "45f18eb7-1a09-4e62-a896-76637e97ac28",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:26.889Z"
+  },
+  {
+    "id": "581516b3-d632-4650-ac9d-b16d39f15065",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:32.873Z"
+  },
+  {
+    "id": "e936e1b8-c375-4bf1-9ba7-cd32e691f63d",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:32.991Z"
+  },
+  {
+    "id": "0cd5070a-56a3-48f7-8aea-aa241cb36f8f",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.110Z"
+  },
+  {
+    "id": "f7e58e94-ebcc-4dff-95b6-1bd912b78c27",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.230Z"
+  },
+  {
+    "id": "2ea0a161-a011-4022-b098-d9eb7af68f5d",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.349Z"
+  },
+  {
+    "id": "fdb246bb-8d64-4a4d-96c8-bd5e5572c678",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.470Z"
+  },
+  {
+    "id": "61850ae0-6448-4ffa-851f-b72b57ab2060",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.591Z"
+  },
+  {
+    "id": "d5d993e0-9027-4be3-bb26-5f166f9fd88e",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.708Z"
+  },
+  {
+    "id": "3804dbdf-da44-48b7-bab9-92ae2ae49dfd",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:33.828Z"
+  },
+  {
+    "id": "84b73473-3d5e-4cb9-b405-f249d9ebd9dd",
+    "type": "stock_update",
+    "ref": "EL5101",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:34.014Z"
+  },
+  {
+    "id": "f3316a22-de61-42f0-9827-5e05fe2591a8",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:34.130Z"
+  },
+  {
+    "id": "60c3dc52-39b4-4105-b52f-37cbbab9e861",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:34.250Z"
+  },
+  {
+    "id": "64770918-bf82-4025-b8f9-c16b1655c396",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:34.513Z"
+  },
+  {
+    "id": "4304af9a-bc68-41da-8dca-c81f59cd6299",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:34.851Z"
+  },
+  {
+    "id": "4a3e866c-a3ee-4364-ae43-3148daef3051",
+    "type": "stock_update",
+    "ref": "09140006466",
+    "field": "Qte stock",
+    "oldValue": 12,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:34.976Z"
+  },
+  {
+    "id": "b8b830c4-dd91-4a5c-8b75-55f59dd7359d",
+    "type": "stock_update",
+    "ref": "09140014623",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.093Z"
+  },
+  {
+    "id": "21d537cf-2881-4013-afc8-dde9f7f79136",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.211Z"
+  },
+  {
+    "id": "63f0a1b2-2736-47ee-9614-74dd66265955",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.331Z"
+  },
+  {
+    "id": "e4bdd098-8bb6-4cda-9ddd-2b32ad61e262",
+    "type": "stock_update",
+    "ref": "09140020311",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.461Z"
+  },
+  {
+    "id": "cd8b27d0-1c87-47c7-9a3e-ae975be2e68f",
+    "type": "stock_update",
+    "ref": "09140033501",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.582Z"
+  },
+  {
+    "id": "b415f7b4-8025-480a-a402-20eb13081683",
+    "type": "stock_update",
+    "ref": "09140253001",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.705Z"
+  },
+  {
+    "id": "b14dab18-9c8f-402e-8d27-c26d27543332",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:35.828Z"
+  },
+  {
+    "id": "d73b0db0-5b85-49ea-8ee9-222e1e5ab0c4",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 152,
+    "newValue": 101,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:36.098Z"
+  },
+  {
+    "id": "69a5f5be-3a29-4b78-a877-cc61f080f852",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 155,
+    "newValue": 104,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:36.217Z"
+  },
+  {
+    "id": "0387ef3e-16ea-4828-95db-4cae950d0888",
+    "type": "stock_update",
+    "ref": "19140020402",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:36.337Z"
+  },
+  {
+    "id": "04821f73-cf32-471a-bf4a-90d9bf1c4e06",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:36.601Z"
+  },
+  {
+    "id": "351997c7-43dc-430c-a2d3-ccfb0fbe8f2a",
+    "type": "stock_update",
+    "ref": "050445",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:36.859Z"
+  },
+  {
+    "id": "29f646b7-412c-4bec-b62a-5fd1b4174bca",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:36.987Z"
+  },
+  {
+    "id": "53071d8e-8ba6-4ef0-ae8f-d87269577a60",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.106Z"
+  },
+  {
+    "id": "b782daad-6882-47c5-8c07-13e0aca0adc6",
+    "type": "stock_update",
+    "ref": "1060.000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.295Z"
+  },
+  {
+    "id": "ae9fe030-6362-434e-ae92-292d4632cd74",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.426Z"
+  },
+  {
+    "id": "852aa801-1922-433b-977e-457ea2d0baa1",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 31,
+    "newValue": 28,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.551Z"
+  },
+  {
+    "id": "fd3175a3-b5a6-4ac1-91ed-abe463bd7f94",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 21,
+    "newValue": 12,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.677Z"
+  },
+  {
+    "id": "86b1269d-4c47-4284-a90e-d1198e8f9dc9",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.800Z"
+  },
+  {
+    "id": "c3c7a5cf-8a6f-4135-9a9b-84d9146b4744",
+    "type": "stock_update",
+    "ref": "621-2271",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:37.930Z"
+  },
+  {
+    "id": "d91fa8ce-cae8-482f-aea2-5e629b39f45c",
+    "type": "stock_update",
+    "ref": "877-1848",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.060Z"
+  },
+  {
+    "id": "603676d3-abed-43b0-b53c-158c43a0a682",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.179Z"
+  },
+  {
+    "id": "d5b83a94-8c74-47de-8fd3-fe0b6496ddbf",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.301Z"
+  },
+  {
+    "id": "f38ac4c9-baf0-45f4-bb32-937e0062447b",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.457Z"
+  },
+  {
+    "id": "ce355e60-3f6d-4f2a-9efc-778767e75855",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.577Z"
+  },
+  {
+    "id": "67e003f5-2d39-43f5-8c8c-78c5c2097cec",
+    "type": "stock_update",
+    "ref": "BSH0553T12A2A",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.700Z"
+  },
+  {
+    "id": "4fb91cd3-125b-4f0d-876f-010e34452de2",
+    "type": "stock_update",
+    "ref": "LP1K0910BD",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:38.831Z"
+  },
+  {
+    "id": "c9e80d8d-239c-48fc-9896-3e03781f66cc",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.020Z"
+  },
+  {
+    "id": "eb56a1eb-606f-4fa4-b621-e7d4e640ed2f",
+    "type": "stock_update",
+    "ref": "NSYCAG92LPF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.143Z"
+  },
+  {
+    "id": "21b067d7-53e8-4623-a160-713441e1e945",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.267Z"
+  },
+  {
+    "id": "b7312b4a-3c18-4b5c-85ea-8695054fb2c1",
+    "type": "stock_update",
+    "ref": "NSYCVF38M230PF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.387Z"
+  },
+  {
+    "id": "22a97680-d81b-4648-8585-492f4c1d98a4",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.535Z"
+  },
+  {
+    "id": "123764f5-fddf-445c-89f3-3d6b4e80c943",
+    "type": "stock_update",
+    "ref": "VCF0",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.746Z"
+  },
+  {
+    "id": "412e188f-bbb2-44ca-8351-0de70c4aa900",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.872Z"
+  },
+  {
+    "id": "66c0f7bb-0e22-41ae-97f4-975666490a8c",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:39.999Z"
+  },
+  {
+    "id": "5d9b56a3-6a54-4eb6-bb3c-0ece4f1fdf49",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.119Z"
+  },
+  {
+    "id": "a7d3c638-acb3-4f54-9cf6-be2ea212a8db",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.260Z"
+  },
+  {
+    "id": "2e55cdfd-e3e6-4995-ac46-8ed90dd88e14",
+    "type": "stock_update",
+    "ref": "ZB4BD2",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.383Z"
+  },
+  {
+    "id": "1a30f11c-f290-45c3-8808-9b0177ad9aaf",
+    "type": "stock_update",
+    "ref": "ZB4BZ009",
+    "field": "Qte stock",
+    "oldValue": 15,
+    "newValue": 12,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.508Z"
+  },
+  {
+    "id": "4dc0fddb-d6de-43ae-911d-ef512ec17321",
+    "type": "stock_update",
+    "ref": "ZBE1015",
+    "field": "Qte stock",
+    "oldValue": 15,
+    "newValue": 12,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.632Z"
+  },
+  {
+    "id": "c4e4d907-1ed7-4c17-98ee-c1ca4aeb88f8",
+    "type": "stock_update",
+    "ref": "3SK1111-1AB30",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.823Z"
+  },
+  {
+    "id": "ebeb3564-9470-48aa-b24a-e31a3eb278e9",
+    "type": "stock_update",
+    "ref": "VX210AGA",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:40.948Z"
+  },
+  {
+    "id": "b6d0ae70-13b5-461a-914d-b2867929622d",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.066Z"
+  },
+  {
+    "id": "7a7f0e83-9ebd-45ab-b4c5-623df49ce944",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.253Z"
+  },
+  {
+    "id": "1309aaf6-0a6f-43dd-8e66-015d6d78106a",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.373Z"
+  },
+  {
+    "id": "d3eb2dbc-b0ba-4093-ba0b-5584920c5366",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.500Z"
+  },
+  {
+    "id": "20989d6b-dcd1-4423-85c9-6b8e5684bc15",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.629Z"
+  },
+  {
+    "id": "983505b0-66ed-4d66-982c-72cf85dd0791",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.750Z"
+  },
+  {
+    "id": "9664845f-df35-410e-8ffb-67c7104f1b1c",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 57,
+    "newValue": 48,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:41.938Z"
+  },
+  {
+    "id": "9f114bb2-0302-46a5-a579-58a61cc62604",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 51,
+    "newValue": 42,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:42.067Z"
+  },
+  {
+    "id": "3696aeb7-3bf9-4fe4-aa7c-a732b6f16e13",
+    "type": "stock_update",
+    "ref": "2787-2144",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:42.190Z"
+  },
+  {
+    "id": "6646bdf3-057d-47ee-98b8-71d2b2ba0ad1",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:42.313Z"
+  },
+  {
+    "id": "6494b73f-aef4-4457-93b1-e7a7697c714f",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:24:42.445Z"
+  },
+  {
+    "id": "a8209bef-1348-4ef3-9424-40a0f76a4b01",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:27.974Z"
+  },
+  {
+    "id": "69380b06-a638-4869-8d4c-4162ce624390",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:28.273Z"
+  },
+  {
+    "id": "c4419ac1-8375-46f6-b867-99e6dc0ea1e0",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:28.512Z"
+  },
+  {
+    "id": "328c05c7-c344-421f-b283-c4cfe0639c95",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:28.766Z"
+  },
+  {
+    "id": "deb78174-ebcc-481f-b468-e07ad7d3c128",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:28.990Z"
+  },
+  {
+    "id": "37a318d5-9ac2-4b61-b169-c0cb3f8c488a",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:29.200Z"
+  },
+  {
+    "id": "2afa5082-063b-496c-ac1b-1b8e97365d5d",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:29.443Z"
+  },
+  {
+    "id": "d1d99635-ce13-438b-b9ec-6777d4dce189",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:29.659Z"
+  },
+  {
+    "id": "9d0366e0-b3a0-4f15-a5bb-4f1f5241cda4",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:29.860Z"
+  },
+  {
+    "id": "d98629bc-2336-45ce-beac-b8676dab3676",
+    "type": "stock_update",
+    "ref": "EL5101",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:30.060Z"
+  },
+  {
+    "id": "afb9e9dd-01eb-4b7f-a94a-eb76e03750df",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 7,
+    "newValue": 4,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:30.276Z"
+  },
+  {
+    "id": "69089dcc-0a2d-4d48-ba45-d2012c881724",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:30.481Z"
+  },
+  {
+    "id": "105db471-bc3d-4ed2-8e28-3691abd17fa7",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 7,
+    "newValue": 4,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:30.835Z"
+  },
+  {
+    "id": "e87e942f-e4a8-40d6-b13b-7b87d11d4eb9",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 17,
+    "newValue": 8,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:31.294Z"
+  },
+  {
+    "id": "d78d5595-d083-41b7-b152-4848cc9b86bb",
+    "type": "stock_update",
+    "ref": "09140006466",
+    "field": "Qte stock",
+    "oldValue": 21,
+    "newValue": 12,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:31.474Z"
+  },
+  {
+    "id": "4f3dd05d-5b18-449b-9b2a-538de6db344e",
+    "type": "stock_update",
+    "ref": "09140014623",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:31.657Z"
+  },
+  {
+    "id": "4d6c8f1a-e9c3-436a-90ca-a33ca4f9835f",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:31.831Z"
+  },
+  {
+    "id": "54771788-7e3b-4597-9383-2e6034ee42e3",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:32.006Z"
+  },
+  {
+    "id": "8ac03bce-bdb5-4f85-b8a2-46c7493fb1f0",
+    "type": "stock_update",
+    "ref": "09140020311",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:32.176Z"
+  },
+  {
+    "id": "905586fb-11f2-438d-bd7c-bb3c37fbc157",
+    "type": "stock_update",
+    "ref": "09140033501",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:32.347Z"
+  },
+  {
+    "id": "91d4345e-6913-4c6f-bfe5-408ceed76c77",
+    "type": "stock_update",
+    "ref": "09140253001",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:32.532Z"
+  },
+  {
+    "id": "5b5e71ff-f280-4cde-81df-28c1e3ecd5a7",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 7,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:32.707Z"
+  },
+  {
+    "id": "880f063d-636d-424b-8565-539ecd05a084",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 203,
+    "newValue": 152,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:33.059Z"
+  },
+  {
+    "id": "a913b34a-d07c-400a-aa7a-9532c5e95ce9",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 206,
+    "newValue": 155,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:33.227Z"
+  },
+  {
+    "id": "dcf7beb1-c86d-4af4-8a08-dd717811774a",
+    "type": "stock_update",
+    "ref": "19140020402",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:33.402Z"
+  },
+  {
+    "id": "50dd7b68-0792-4de1-b362-c1b77b2d88ce",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:33.776Z"
+  },
+  {
+    "id": "0e1e0abf-9d9a-4d45-a0fc-bb16c3ef9fab",
+    "type": "stock_update",
+    "ref": "050445",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:34.146Z"
+  },
+  {
+    "id": "a477fb31-7591-4353-ad84-eab037fc8860",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:34.320Z"
+  },
+  {
+    "id": "36ae3112-18b9-4557-a104-f0ddb9ab677f",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 5,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:34.493Z"
+  },
+  {
+    "id": "bdff655d-2d86-40b3-8810-508542a07270",
+    "type": "stock_update",
+    "ref": "1060.000",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:34.773Z"
+  },
+  {
+    "id": "5e983e96-ed20-4f0e-a4ea-6924acf249cc",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:34.944Z"
+  },
+  {
+    "id": "3e8ff911-92a8-4f38-919c-ac64088d8f7e",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 34,
+    "newValue": 31,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:35.123Z"
+  },
+  {
+    "id": "ce1dd163-bd93-48f6-8884-05a2d0af3048",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 30,
+    "newValue": 21,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:35.287Z"
+  },
+  {
+    "id": "57c1351b-a11b-4851-8b75-29886fae865b",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 2,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:35.449Z"
+  },
+  {
+    "id": "d336ca27-9f57-44fb-b7d4-38a4d1491d65",
+    "type": "stock_update",
+    "ref": "621-2271",
+    "field": "Qte stock",
+    "oldValue": 10,
+    "newValue": 4,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:35.635Z"
+  },
+  {
+    "id": "655d557a-829a-4f4e-ac39-a19d9f61cdc3",
+    "type": "stock_update",
+    "ref": "877-1848",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:35.796Z"
+  },
+  {
+    "id": "59159940-343d-4212-8980-da41462b4f59",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:35.958Z"
+  },
+  {
+    "id": "26edf513-c4bf-4dc7-8553-d2a5d4e6abc0",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:36.125Z"
+  },
+  {
+    "id": "ae5b47d3-43ad-4d99-830c-64416aabaa0e",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:36.295Z"
+  },
+  {
+    "id": "ed4b26e1-7159-4dd7-ab1a-e714252a78ee",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:36.481Z"
+  },
+  {
+    "id": "6fcc685a-254b-4c8a-9884-725f1312a980",
+    "type": "stock_update",
+    "ref": "BSH0553T12A2A",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:36.671Z"
+  },
+  {
+    "id": "f97bbada-fc26-443d-a2dc-550554f5543e",
+    "type": "stock_update",
+    "ref": "LP1K0910BD",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:36.835Z"
+  },
+  {
+    "id": "be5a6e2e-909f-40bb-bf89-583a44feea02",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:37.001Z"
+  },
+  {
+    "id": "0a23a713-d9ec-489f-a54f-029ac682c663",
+    "type": "stock_update",
+    "ref": "NSYCAG92LPF",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:37.169Z"
+  },
+  {
+    "id": "ed4d648f-355d-41cd-a83e-5d62dfbb0411",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:37.349Z"
+  },
+  {
+    "id": "ddae4855-66a0-46da-b1ea-62bf29699990",
+    "type": "stock_update",
+    "ref": "NSYCVF38M230PF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:37.617Z"
+  },
+  {
+    "id": "21ee05a1-5bee-4801-8634-ca1b1b09d5aa",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:37.807Z"
+  },
+  {
+    "id": "4866d5f2-4f2a-43bf-8015-309a2afb01c5",
+    "type": "stock_update",
+    "ref": "VCF0",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:38.072Z"
+  },
+  {
+    "id": "e68c858e-046c-417d-8057-a9dbb419eb3c",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:38.235Z"
+  },
+  {
+    "id": "a2c0156a-eb8e-4624-994c-644c31b9a57b",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:38.403Z"
+  },
+  {
+    "id": "5599c4f9-bb2d-4ab4-bcfc-6ad3d2f78cb5",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:38.573Z"
+  },
+  {
+    "id": "3c49a112-9196-4aac-bc47-271990265dcc",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:38.745Z"
+  },
+  {
+    "id": "f63a8c9b-9f28-4d2e-ac88-a1e7cdf3b6f6",
+    "type": "stock_update",
+    "ref": "ZB4BD2",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:38.911Z"
+  },
+  {
+    "id": "4e9d6b5f-3355-4137-907d-51adcdb9789a",
+    "type": "stock_update",
+    "ref": "ZB4BZ009",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 15,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:39.082Z"
+  },
+  {
+    "id": "aac95498-efb1-473f-966b-46f9f1774634",
+    "type": "stock_update",
+    "ref": "ZBE1015",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 15,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:39.248Z"
+  },
+  {
+    "id": "dc15ef6d-b58d-4160-95a2-e2afed1255e4",
+    "type": "stock_update",
+    "ref": "3SK1111-1AB30",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:39.501Z"
+  },
+  {
+    "id": "7937272b-3381-432e-a95a-05822ee23d83",
+    "type": "stock_update",
+    "ref": "VX210AGA",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:39.676Z"
+  },
+  {
+    "id": "611daff0-fd21-45ec-ad23-ed08ffbd101f",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:39.837Z"
+  },
+  {
+    "id": "024d2ef2-59e7-422f-93f7-e6c64987952f",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:40.087Z"
+  },
+  {
+    "id": "ab8b4ec1-f64a-47bb-bfc6-ef9e22838b5d",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:40.252Z"
+  },
+  {
+    "id": "1ac902ba-ae2d-4e04-b154-ba9c89eaae4e",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:40.415Z"
+  },
+  {
+    "id": "5b083d64-1a22-4b5a-9f83-bf8581f66376",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:40.588Z"
+  },
+  {
+    "id": "edbc8b7d-2026-4ec5-a5f9-d918967b008f",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:40.761Z"
+  },
+  {
+    "id": "100cb7a9-1e14-4813-80bf-46043bfacd6e",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 66,
+    "newValue": 57,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:41.025Z"
+  },
+  {
+    "id": "2a240e8d-afa4-4f2d-a665-ef36ad3e2c3a",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 60,
+    "newValue": 51,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:41.210Z"
+  },
+  {
+    "id": "fd0e86eb-9e81-4a4d-9c42-e739f5d58c6c",
+    "type": "stock_update",
+    "ref": "2787-2144",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:41.387Z"
+  },
+  {
+    "id": "0d377a79-2fd6-41f7-9f6e-bb0a1f730c1e",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:41.561Z"
+  },
+  {
+    "id": "e3fe15bd-107b-404d-b5d0-cc422c503a62",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:27:41.727Z"
+  },
+  {
+    "id": "41b8a0d4-7478-4249-910c-e0607035786a",
+    "type": "stock_update",
+    "ref": "842-2798",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "4",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:29:20.743Z"
+  },
+  {
+    "id": "11c81681-1728-472e-9c90-b002eb9e76c9",
+    "type": "stock_update",
+    "ref": "C9900-K667",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "5",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:33:08.805Z"
+  },
+  {
+    "id": "a04e98b1-d000-4721-84c0-51adb9b9b2c5",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "8",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:33:45.113Z"
+  },
+  {
+    "id": "9ac4e42f-5169-4d21-ace5-f1f2f2857dd3",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T09:34:27.421Z"
+  },
+  {
+    "id": "967280bf-c56a-4ff5-861e-23bbd3c97b3d",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T11:58:34.758Z"
+  },
+  {
+    "id": "653b2b4b-151f-4d8c-a55b-661a7893c20c",
+    "type": "order_update",
+    "orderId": "1747639076653",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T11:58:36.358Z"
+  },
+  {
+    "id": "7259e9bd-9b6c-42d0-b8bf-879c84ed4f25",
+    "type": "stock_create",
+    "ref": "test",
+    "field": null,
+    "oldValue": null,
+    "newValue": {
+      "Marque": "test",
+      "Ref": "test",
+      "Désignation": "test",
+      "Fournisseurs": "test",
+      "Qte stock": "8",
+      "Qte mini": "1"
+    },
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T12:15:58.898Z"
+  },
+  {
+    "id": "2b57cff6-8f46-4a4e-9030-403321623a1b",
+    "type": "stock_update",
+    "ref": "test",
+    "field": "Qte stock",
+    "oldValue": "8",
+    "newValue": "9",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T12:16:29.083Z"
+  },
+  {
+    "id": "d010b7da-62df-43e6-b357-bf8b6eb9d987",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "En cours",
+    "newStatus": "Reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T14:15:42.511Z"
+  },
+  {
+    "id": "22ba12e4-972b-439b-b016-acfde491b4d7",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "Reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T14:16:50.467Z"
+  },
+  {
+    "id": "e011b75e-cd82-4074-ba00-4a91c272b3dc",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T14:16:51.663Z"
+  },
+  {
+    "id": "f8710ad4-669e-4c80-92f2-eeb684569685",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T14:29:00.735Z"
+  },
+  {
+    "id": "9ce8daed-e2c1-406c-ab68-137cd2a9f53a",
+    "type": "order_update",
+    "orderId": "1747639076653",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T14:29:36.363Z"
+  },
+  {
+    "id": "d11fce71-20d6-4308-bb29-20f05c03c45f",
+    "type": "order_update",
+    "orderId": "1747639076653",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T14:30:13.022Z"
+  },
+  {
+    "id": "b3cd7302-0343-4a91-9df9-abf391f12e0d",
+    "type": "order_update",
+    "orderId": "1747639076653",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:07:47.204Z"
+  },
+  {
+    "id": "d742aece-0c74-4690-b797-38dbe9516328",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "5",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:09:15.116Z"
+  },
+  {
+    "id": "9a5acc75-9762-4963-9a7c-fae34626e22e",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "Reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:09:49.054Z"
+  },
+  {
+    "id": "da9552ea-5a24-4c6a-a2dd-8137d19b2817",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:09:51.013Z"
+  },
+  {
+    "id": "9f2e6608-f81e-444b-9eda-09ddfbf38bed",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:10:00.749Z"
+  },
+  {
+    "id": "2c952024-efea-499b-b44e-d9a25d0e7d28",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:10:10.198Z"
+  },
+  {
+    "id": "fd97526b-1fee-4a5e-b2e7-256e5fa3ed60",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:10:23.151Z"
+  },
+  {
+    "id": "53143f7b-77bf-48f5-ad9e-fb6d5da2766c",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-19T15:10:27.535Z"
+  },
+  {
+    "id": "f9ec4064-9eef-48f8-8529-0870e4b213b9",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:10:49.027Z"
+  },
+  {
+    "id": "3528c16e-7526-4e8c-b421-9a912026c7bd",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "En cours",
+    "newStatus": "Reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:10:52.048Z"
+  },
+  {
+    "id": "76439b56-dc66-4002-b9c5-952e48b2ecaf",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:11:46.993Z"
+  },
+  {
+    "id": "55cff378-ac7b-418a-923d-455c1b2eb6ff",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": "8",
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:42.520Z"
+  },
+  {
+    "id": "af98ead6-4883-48fb-9589-22ae20568a1e",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:42.670Z"
+  },
+  {
+    "id": "cdba0b6a-ba0f-449a-908b-a32f48cd0c5e",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:42.795Z"
+  },
+  {
+    "id": "a78ff8c0-da3a-41b2-ba36-5ca1386caee6",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:42.933Z"
+  },
+  {
+    "id": "8da56afd-3993-4ceb-a442-72e2c2fede30",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.137Z"
+  },
+  {
+    "id": "ea1418dd-cb43-448c-93fd-802abaacd594",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.330Z"
+  },
+  {
+    "id": "f73391d3-e87c-43a9-a0c0-e556ea472f47",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.463Z"
+  },
+  {
+    "id": "ae2f06a0-b6e9-4546-a163-a6041c953dbd",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.597Z"
+  },
+  {
+    "id": "93f21da8-6a2e-46e6-b5ed-41ae5bd03146",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.733Z"
+  },
+  {
+    "id": "e216cf79-ca49-4340-b40d-eb9ae61c2b5e",
+    "type": "stock_update",
+    "ref": "EL5101",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.864Z"
+  },
+  {
+    "id": "6d2c88a6-3a39-4e54-8d06-07cca02e83d1",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:43.994Z"
+  },
+  {
+    "id": "d96a119c-8dfe-4bdd-be01-8fd216abc72f",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:44.125Z"
+  },
+  {
+    "id": "178ca585-65fc-4e30-b96e-6e170456a534",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:44.391Z"
+  },
+  {
+    "id": "6df99de9-34fc-43c8-93f6-6aaa59401177",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:44.746Z"
+  },
+  {
+    "id": "23cbd4e4-3e7b-4478-ac2c-659d672baa69",
+    "type": "stock_update",
+    "ref": "09140006466",
+    "field": "Qte stock",
+    "oldValue": 12,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:44.874Z"
+  },
+  {
+    "id": "1748dfb3-7bf9-478c-b64d-638496f70dc2",
+    "type": "stock_update",
+    "ref": "09140014623",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:44.998Z"
+  },
+  {
+    "id": "5ca05edd-ca0b-4b3c-9cde-cdb0d1f264a7",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:45.124Z"
+  },
+  {
+    "id": "79f053e8-c6fe-4ccc-b106-f46510c47450",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:45.248Z"
+  },
+  {
+    "id": "c2f1fd68-8841-418d-822e-093a3c3d6f8f",
+    "type": "stock_update",
+    "ref": "09140020311",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:45.377Z"
+  },
+  {
+    "id": "823f4007-5284-468a-b1b6-9712be498def",
+    "type": "stock_update",
+    "ref": "09140033501",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:45.502Z"
+  },
+  {
+    "id": "421c28ae-e207-45d6-b28d-9bd35d999fc7",
+    "type": "stock_update",
+    "ref": "09140253001",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:45.629Z"
+  },
+  {
+    "id": "260c9574-6c4f-47a5-bfef-e0d80f7df168",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:45.857Z"
+  },
+  {
+    "id": "8d78a1fa-9f82-453d-815c-46dd27f1aed5",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 152,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:46.222Z"
+  },
+  {
+    "id": "7844d39d-e5de-475d-85cf-182a7cd0c7f2",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 155,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:46.366Z"
+  },
+  {
+    "id": "b602cec8-e6e4-4106-8138-26fac0939a66",
+    "type": "stock_update",
+    "ref": "19140020402",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:46.489Z"
+  },
+  {
+    "id": "070787e4-b498-4acd-aa75-1ce3741c72c2",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:46.746Z"
+  },
+  {
+    "id": "94a13d9a-aad7-45ee-b1b2-ad0172c87f5c",
+    "type": "stock_update",
+    "ref": "050445",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.007Z"
+  },
+  {
+    "id": "61399900-a644-435b-a131-360307d3d1aa",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.131Z"
+  },
+  {
+    "id": "7bc71fa9-b9ee-46cb-8897-4d2262073945",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.254Z"
+  },
+  {
+    "id": "d633d046-58f5-40be-a9d8-3285ff5bb6a8",
+    "type": "stock_update",
+    "ref": "1060.000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.445Z"
+  },
+  {
+    "id": "66febd65-f490-4c99-a328-5c630bdab115",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.566Z"
+  },
+  {
+    "id": "811de33c-9faa-4298-aeda-c11738dabcd8",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 31,
+    "newValue": 17,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.687Z"
+  },
+  {
+    "id": "305737cc-7946-4769-9823-06498d19a3a5",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 21,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.811Z"
+  },
+  {
+    "id": "6e73d676-3bba-4223-837c-e06d20ed66bf",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:47.933Z"
+  },
+  {
+    "id": "858d2255-9ea6-41b8-8859-075993c7f39d",
+    "type": "stock_update",
+    "ref": "621-2271",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.056Z"
+  },
+  {
+    "id": "ad3e693a-1dfc-499c-8938-dc43cdbc3606",
+    "type": "stock_update",
+    "ref": "877-1848",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.182Z"
+  },
+  {
+    "id": "5ad62a17-b49a-4bc3-83a7-31c41c22adf0",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.378Z"
+  },
+  {
+    "id": "f350fe96-ae30-4f76-bdf6-d95b484769da",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.593Z"
+  },
+  {
+    "id": "b4b64c0f-066e-49d4-81b3-a07702217b08",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": "5",
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.716Z"
+  },
+  {
+    "id": "7959dbf0-a34f-49be-adf7-8869af54c3ea",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.840Z"
+  },
+  {
+    "id": "400eefe2-0fff-4a64-b139-4c44bd5def3c",
+    "type": "stock_update",
+    "ref": "BSH0553T12A2A",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:48.964Z"
+  },
+  {
+    "id": "a64e786a-2bf9-40aa-9a0a-e8d43bd3a044",
+    "type": "stock_update",
+    "ref": "LP1K0910BD",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.087Z"
+  },
+  {
+    "id": "61bda777-7356-4981-8fab-ae5a4c68b964",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.207Z"
+  },
+  {
+    "id": "6e03985b-54e2-4cfc-9b80-eb77a4e72100",
+    "type": "stock_update",
+    "ref": "NSYCAG92LPF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.332Z"
+  },
+  {
+    "id": "4cde650e-8b08-4878-ac85-3979eafc8568",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.456Z"
+  },
+  {
+    "id": "58dde671-ad56-46b6-a7bc-8d06124d20fc",
+    "type": "stock_update",
+    "ref": "NSYCVF38M230PF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.575Z"
+  },
+  {
+    "id": "16d37c59-afa3-4506-9ee4-5116c66f1f78",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.706Z"
+  },
+  {
+    "id": "6b3d7a4c-2279-43f0-a5ca-be7a29c372a2",
+    "type": "stock_update",
+    "ref": "VCF0",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:49.898Z"
+  },
+  {
+    "id": "4d0d1b4e-27d4-4c46-95d0-528fe8e01411",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.022Z"
+  },
+  {
+    "id": "f7b2b1bb-c014-476d-ac6a-c6f80be132e6",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.148Z"
+  },
+  {
+    "id": "95ba9087-9ee4-4e97-9389-4ff1ef33c344",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.271Z"
+  },
+  {
+    "id": "b7e9e7f1-f093-4f87-9a9a-111a20cdda2d",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.396Z"
+  },
+  {
+    "id": "7ad4a593-dc91-461b-b81b-db4c34a40e8a",
+    "type": "stock_update",
+    "ref": "ZB4BD2",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.523Z"
+  },
+  {
+    "id": "c80eeaa1-663b-4527-87bc-107775d8001f",
+    "type": "stock_update",
+    "ref": "ZB4BZ009",
+    "field": "Qte stock",
+    "oldValue": 15,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.648Z"
+  },
+  {
+    "id": "f59fa75c-8971-4dcc-abeb-77827772ded1",
+    "type": "stock_update",
+    "ref": "ZBE1015",
+    "field": "Qte stock",
+    "oldValue": 15,
+    "newValue": 1,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:50.838Z"
+  },
+  {
+    "id": "085d9afc-3b7b-4e29-91e7-17c976642056",
+    "type": "stock_update",
+    "ref": "3SK1111-1AB30",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.107Z"
+  },
+  {
+    "id": "2e088b38-4691-40c7-8db0-71759c837383",
+    "type": "stock_update",
+    "ref": "VX210AGA",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.230Z"
+  },
+  {
+    "id": "04e28498-1c13-449a-aba4-77a841de493b",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.356Z"
+  },
+  {
+    "id": "6903a0a3-c96e-484f-ada4-0e81de968ab4",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.552Z"
+  },
+  {
+    "id": "a1982aae-90e6-4409-97ed-68450d3bf225",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.677Z"
+  },
+  {
+    "id": "10d2543b-b19e-44a3-b888-4f8cc776374f",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.804Z"
+  },
+  {
+    "id": "a03cbfea-cbe9-443c-ad3e-cfecbb2b5c8b",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:51.928Z"
+  },
+  {
+    "id": "e63b814c-5717-49cd-844c-b14b7b226112",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:52.055Z"
+  },
+  {
+    "id": "73dffb47-9250-43c8-8e10-dc971a805e53",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 57,
+    "newValue": 15,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:52.258Z"
+  },
+  {
+    "id": "8bc288c4-16be-42e4-83ee-b03fbe9ae463",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 51,
+    "newValue": 9,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:52.385Z"
+  },
+  {
+    "id": "1bae7279-10bf-4f9d-85c0-48e37dd4e35c",
+    "type": "stock_update",
+    "ref": "2787-2144",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:52.511Z"
+  },
+  {
+    "id": "ef0476a1-f0a9-4d9b-8cce-ed5a2ed0a6f5",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:52.641Z"
+  },
+  {
+    "id": "4fd268cf-bdf3-4415-8397-03bbb09cce2e",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:14:52.763Z"
+  },
+  {
+    "id": "0d362caf-d61e-456e-a8c9-9ae321d363f1",
+    "type": "stock_update",
+    "ref": "ZK7000-0100-0250",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:38.588Z"
+  },
+  {
+    "id": "d035749b-7679-4973-835f-d7af0e8eac13",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:38.727Z"
+  },
+  {
+    "id": "54fe859e-079d-4776-b56e-a7f84bfae10e",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:38.924Z"
+  },
+  {
+    "id": "c4b565de-d4d7-466e-a249-e63fca67e27f",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.132Z"
+  },
+  {
+    "id": "e3c7e7b8-cbc8-44cf-9a3b-8df5127134e3",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.256Z"
+  },
+  {
+    "id": "82c22042-7df1-4ba1-a40f-b1f2f44e568b",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.383Z"
+  },
+  {
+    "id": "8eccf5af-8094-40f0-97ff-917efcc96a94",
+    "type": "stock_update",
+    "ref": "EK1122",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.514Z"
+  },
+  {
+    "id": "3d2ff15b-d73b-40bc-9ed2-1f2435446af8",
+    "type": "stock_update",
+    "ref": "EK1310",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.644Z"
+  },
+  {
+    "id": "13931f54-1182-4acc-ac30-230fab1f97f6",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.771Z"
+  },
+  {
+    "id": "8a7db76d-645a-4662-b5df-2ebea30c3310",
+    "type": "stock_update",
+    "ref": "EL1918",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:39.901Z"
+  },
+  {
+    "id": "dcd7cbe5-8ed9-4e26-9cb2-be2676c00b77",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:40.031Z"
+  },
+  {
+    "id": "573942d0-1413-4275-b041-2e2a564c14ba",
+    "type": "stock_update",
+    "ref": "EL2904",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:40.163Z"
+  },
+  {
+    "id": "7bbe8366-f86d-47b3-b40f-d61f1dea6cc1",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:40.288Z"
+  },
+  {
+    "id": "ff82c57f-5709-4f84-b49d-661577235054",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:40.841Z"
+  },
+  {
+    "id": "227464c9-6b19-409d-8238-378b0b739728",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:40.969Z"
+  },
+  {
+    "id": "82e73bb9-4148-4106-a648-28a40b8d8bb5",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:41.241Z"
+  },
+  {
+    "id": "674bca03-86c5-4534-9336-5f25f6156b9e",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:41.800Z"
+  },
+  {
+    "id": "6d2a0dd0-bd57-4166-b86c-7fbd0bd6ad56",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:41.925Z"
+  },
+  {
+    "id": "43720f83-bf33-4868-b964-4f2b7615c86f",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.122Z"
+  },
+  {
+    "id": "54e1fc71-3a34-4253-bcd5-079ae52462d3",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 17,
+    "newValue": 3,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.244Z"
+  },
+  {
+    "id": "ac0b60ec-c9fc-47a7-97f5-28578d017ed4",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.369Z"
+  },
+  {
+    "id": "4641eccb-f0ce-4b4d-9511-a30d1cb64229",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.495Z"
+  },
+  {
+    "id": "bb0bad85-38d9-4d4e-ba98-221ebe55f523",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.620Z"
+  },
+  {
+    "id": "2234eb5e-08e2-48d1-9a75-2cf450da47cd",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.748Z"
+  },
+  {
+    "id": "eadc31f5-3856-415f-9b85-1b7d70723811",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.876Z"
+  },
+  {
+    "id": "9b0e34d6-17f5-4caa-84a8-3f226a034d1f",
+    "type": "stock_update",
+    "ref": "A9P22616",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:42.999Z"
+  },
+  {
+    "id": "1618a94f-2108-43ac-b36a-0772bc525080",
+    "type": "stock_update",
+    "ref": "BMH1002T27F2A",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:43.124Z"
+  },
+  {
+    "id": "b88acc1d-6abc-4dc3-bf06-fab5997cb3c2",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:43.396Z"
+  },
+  {
+    "id": "e690a791-cc97-4e9e-a013-b8e82d03661d",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:43.524Z"
+  },
+  {
+    "id": "e063040b-337f-493e-8a4c-2ffead5c9f54",
+    "type": "stock_update",
+    "ref": "NSYCVF54M230MM2",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:43.647Z"
+  },
+  {
+    "id": "1590f105-a925-4b2f-9d56-23fa9c2fe663",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:43.776Z"
+  },
+  {
+    "id": "77214524-c7f5-4940-8e9c-1fd63ad9b375",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:43.972Z"
+  },
+  {
+    "id": "d22dbd22-1567-46df-af90-4113ea29016c",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:44.099Z"
+  },
+  {
+    "id": "6ed17e36-cdc1-4e80-a2a1-5eaab6176c02",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:44.228Z"
+  },
+  {
+    "id": "e33252ee-bc2b-472f-a000-8a7f592f3fd8",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:44.356Z"
+  },
+  {
+    "id": "bf2a295e-e550-4cf2-8d9f-90318aa88db8",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:44.557Z"
+  },
+  {
+    "id": "64db5452-fe4a-45a3-bda7-4c6591f1649e",
+    "type": "stock_update",
+    "ref": "SY7120-5LOU-C10F-Q",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:44.686Z"
+  },
+  {
+    "id": "c78dafe8-0cb8-4e09-bb74-40b7dc5ce46b",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:44.957Z"
+  },
+  {
+    "id": "725371b9-dbd1-454e-8e48-751816dca9ff",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.085Z"
+  },
+  {
+    "id": "015b6ce9-c46c-4cfa-b24c-53283e980b3c",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.212Z"
+  },
+  {
+    "id": "96837931-eab8-43a8-94fb-34f5b6d1640b",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.343Z"
+  },
+  {
+    "id": "5298e564-24f7-4634-9dd3-98fbf92e1a25",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.482Z"
+  },
+  {
+    "id": "e3d85be4-a444-4ad1-9554-8ab2b4c82620",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 15,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.689Z"
+  },
+  {
+    "id": "a8803862-98c6-43fb-90f6-dce79ba76c77",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 9,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.824Z"
+  },
+  {
+    "id": "8be1193e-96eb-4482-8c0b-7aa066603718",
+    "type": "stock_update",
+    "ref": "2787-2146",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:45.955Z"
+  },
+  {
+    "id": "2d87ae23-bcf4-44e4-b332-1f0048b59790",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:46.087Z"
+  },
+  {
+    "id": "464f4561-3b9d-4200-9f9e-2fd57118f477",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:15:46.221Z"
+  },
+  {
+    "id": "c4ff0137-168b-4dd6-9e90-74e291e6f497",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:22.583Z"
+  },
+  {
+    "id": "e49ebfdc-80fc-4257-b44e-84b1d30c600a",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:22.714Z"
+  },
+  {
+    "id": "3fbd88b2-b9a4-4950-aa37-850ced5df20f",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:22.925Z"
+  },
+  {
+    "id": "81075956-315a-4177-97d2-c987cd31a1d6",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.140Z"
+  },
+  {
+    "id": "ac8b84d4-93dc-4669-893a-4aa7e804eac4",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.263Z"
+  },
+  {
+    "id": "37404e3d-c053-4ca5-8c12-de4832807240",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.385Z"
+  },
+  {
+    "id": "54cab1f0-5ea8-4128-9142-d6a01fdb3d2e",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.505Z"
+  },
+  {
+    "id": "213d9626-2bc3-46a4-857b-f3918b592955",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.627Z"
+  },
+  {
+    "id": "40234862-00e2-4823-9de9-1c6f5be16983",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.749Z"
+  },
+  {
+    "id": "0a517de1-4f3b-4658-8266-b2e1648002de",
+    "type": "stock_update",
+    "ref": "EL5101",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.869Z"
+  },
+  {
+    "id": "962e9389-0673-478b-a19a-5557d777e475",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:23.988Z"
+  },
+  {
+    "id": "8556072b-dd58-4874-bbff-715b568edbcd",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:24.108Z"
+  },
+  {
+    "id": "1f33d847-ed6e-492c-ba42-9d5b9f5a2038",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:24.364Z"
+  },
+  {
+    "id": "0e1bc78b-014d-4d05-8c97-b8770fc9b164",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:24.699Z"
+  },
+  {
+    "id": "d387da4a-8147-43e2-a2ef-bca6e5a99bc5",
+    "type": "stock_update",
+    "ref": "09140006466",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:24.843Z"
+  },
+  {
+    "id": "b28523ab-90ed-40e2-a6d2-c2f5c374b22d",
+    "type": "stock_update",
+    "ref": "09140014623",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:24.971Z"
+  },
+  {
+    "id": "30b0cd9b-f947-48eb-bda4-c3547cbf8b38",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.091Z"
+  },
+  {
+    "id": "b5e72cdc-f354-4fd9-b39b-d410623e323e",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.214Z"
+  },
+  {
+    "id": "9dc3e57d-c80c-43d8-87b6-db8282c563ff",
+    "type": "stock_update",
+    "ref": "09140020311",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.338Z"
+  },
+  {
+    "id": "66b05db8-11d9-405b-a794-ff938fbad539",
+    "type": "stock_update",
+    "ref": "09140033501",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.464Z"
+  },
+  {
+    "id": "32ce59a0-0d7f-463e-8b37-d7b48b374f74",
+    "type": "stock_update",
+    "ref": "09140253001",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.585Z"
+  },
+  {
+    "id": "ee02a6d1-fa20-4f33-adb1-129421794b6e",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.707Z"
+  },
+  {
+    "id": "2c09c386-38eb-4ea8-8b8f-dd7ccb021eb8",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:25.980Z"
+  },
+  {
+    "id": "18a3d68e-6a50-4a2f-b156-d13a5d4f7d61",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:26.100Z"
+  },
+  {
+    "id": "e2b32e11-39ed-4081-8749-caedb235ec0a",
+    "type": "stock_update",
+    "ref": "19140020402",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:26.220Z"
+  },
+  {
+    "id": "fdef1396-6e18-414e-8269-1e55f1044940",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:26.477Z"
+  },
+  {
+    "id": "7a2ec456-6f0a-41d5-85f8-17834a4b652a",
+    "type": "stock_update",
+    "ref": "050445",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:26.733Z"
+  },
+  {
+    "id": "9df2d5a6-8425-4faa-ac48-5b42b4e7feb8",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:26.856Z"
+  },
+  {
+    "id": "efadb4d8-70aa-4181-b33d-856b5e098879",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:26.977Z"
+  },
+  {
+    "id": "5a9fbe52-0208-4a18-9d10-4d69cdf976ac",
+    "type": "stock_update",
+    "ref": "1060.000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.177Z"
+  },
+  {
+    "id": "675afbd0-6683-4e1f-890d-21c2b3c4b267",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.309Z"
+  },
+  {
+    "id": "ff8daad3-b041-4523-ab9b-dd3146754b03",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.437Z"
+  },
+  {
+    "id": "52d5d0ef-89a9-48ed-9bee-17e58dee1cb1",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.560Z"
+  },
+  {
+    "id": "2149f798-5152-46f4-969a-0b648bbf7aba",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.682Z"
+  },
+  {
+    "id": "5e2e3c5f-0b50-4fa8-9300-dcad8b854d87",
+    "type": "stock_update",
+    "ref": "621-2271",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.803Z"
+  },
+  {
+    "id": "e090247a-7444-4c2b-9498-5337f1b44901",
+    "type": "stock_update",
+    "ref": "877-1848",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:27.927Z"
+  },
+  {
+    "id": "abd190e8-3c27-4a71-9912-07b3328550da",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.054Z"
+  },
+  {
+    "id": "38597c2e-6d15-4a57-a19b-25f1291bf949",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.245Z"
+  },
+  {
+    "id": "08a5a6b5-9b8b-49ab-ba1a-fa9f5cc26705",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.473Z"
+  },
+  {
+    "id": "8446000a-4d40-43d6-8156-ca3ec5b4b932",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.594Z"
+  },
+  {
+    "id": "01d41bb3-9ec8-46ad-8ebe-5468fa60ed8e",
+    "type": "stock_update",
+    "ref": "BSH0553T12A2A",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.715Z"
+  },
+  {
+    "id": "2b1e7c4d-482f-4ce1-999f-4c2ec46f8962",
+    "type": "stock_update",
+    "ref": "LP1K0910BD",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.836Z"
+  },
+  {
+    "id": "ba483dd7-9052-448a-aeaa-72b052ee8509",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:28.958Z"
+  },
+  {
+    "id": "faa0c02a-1b77-4a1e-8762-362d6b9a27d7",
+    "type": "stock_update",
+    "ref": "NSYCAG92LPF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.080Z"
+  },
+  {
+    "id": "5be5d300-a162-4ee7-bfb4-4b3376248325",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.200Z"
+  },
+  {
+    "id": "6553a6c1-6ba7-42e6-a3a1-f67d923707fc",
+    "type": "stock_update",
+    "ref": "NSYCVF38M230PF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.322Z"
+  },
+  {
+    "id": "5a53a567-892e-472f-a717-c4ce50d2f18e",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.450Z"
+  },
+  {
+    "id": "07e0d0f5-b3b3-4679-9406-1aa7f27cd2a8",
+    "type": "stock_update",
+    "ref": "VCF0",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.640Z"
+  },
+  {
+    "id": "af767013-0bba-4777-aeda-bee0dddbda7b",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.764Z"
+  },
+  {
+    "id": "8318aa09-b353-45a4-9514-4e07275fbde7",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:29.889Z"
+  },
+  {
+    "id": "350be355-b00e-4a90-ac79-091ea668c368",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.012Z"
+  },
+  {
+    "id": "4046ec82-ca14-4a48-bdf8-a9af48ffcdd7",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.134Z"
+  },
+  {
+    "id": "7716baae-b5a9-4d38-b75d-8ce1e3948f43",
+    "type": "stock_update",
+    "ref": "ZB4BD2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.274Z"
+  },
+  {
+    "id": "75cc9460-f3bc-493d-9dfd-469e9b9cab37",
+    "type": "stock_update",
+    "ref": "ZB4BZ009",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.402Z"
+  },
+  {
+    "id": "cbd55a60-19b2-4cd4-ab5f-2328a90e9635",
+    "type": "stock_update",
+    "ref": "ZBE1015",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.523Z"
+  },
+  {
+    "id": "b9e15438-affb-4389-960c-fe3e49cca703",
+    "type": "stock_update",
+    "ref": "3SK1111-1AB30",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.711Z"
+  },
+  {
+    "id": "8929964a-ebf1-4ba5-b076-fa23e11d711f",
+    "type": "stock_update",
+    "ref": "VX210AGA",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.835Z"
+  },
+  {
+    "id": "3f5be2a3-8658-4d64-b8a5-081715064b0f",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:30.957Z"
+  },
+  {
+    "id": "3d9a6dc5-5126-4d7c-8df8-0a0f34490f21",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.146Z"
+  },
+  {
+    "id": "5e862f24-f614-426b-bd92-92c005f38c1f",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.271Z"
+  },
+  {
+    "id": "87625dcf-9c78-4dc5-becc-d2b7b237e05d",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.396Z"
+  },
+  {
+    "id": "939461fa-8c8f-4343-ab73-808156b18cdb",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.519Z"
+  },
+  {
+    "id": "27fa18a6-a2ab-4977-a93b-8c9643195024",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.641Z"
+  },
+  {
+    "id": "75cb00ce-3d5f-4d54-8740-6895e4c99fc6",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.831Z"
+  },
+  {
+    "id": "1b72a36b-72b4-4322-8d4e-2cb5320844d9",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:31.955Z"
+  },
+  {
+    "id": "1f762a0b-d93f-44fa-b5b0-6cf7a21ba084",
+    "type": "stock_update",
+    "ref": "2787-2144",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:32.077Z"
+  },
+  {
+    "id": "1cb3c86e-a6f0-4b5b-ad06-0ca6388fb36c",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:32.199Z"
+  },
+  {
+    "id": "3edd60f4-1747-4a21-950c-d4398a933608",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:32.320Z"
+  },
+  {
+    "id": "a9c8df2b-4bbc-4ed9-a10f-e1606971deae",
+    "type": "stock_update",
+    "ref": "ZK7000-0100-0250",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:54.062Z"
+  },
+  {
+    "id": "0bd4550c-ca0a-4bf4-a8ff-e9e10f20e41d",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:54.189Z"
+  },
+  {
+    "id": "f20e4c9c-78fc-4652-8440-caa479d4570d",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:54.319Z"
+  },
+  {
+    "id": "5ffc3616-8c00-4fb8-a1c8-ab029c68e85e",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:54.448Z"
+  },
+  {
+    "id": "77c8d916-f81d-46a8-bb18-4d00eae74957",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:54.576Z"
+  },
+  {
+    "id": "1528d943-4e5e-4ce8-bef0-813e876bdc5d",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:54.796Z"
+  },
+  {
+    "id": "2ea2edc3-6d33-4433-a6b5-92e5aa6fe8d2",
+    "type": "stock_update",
+    "ref": "EK1122",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.008Z"
+  },
+  {
+    "id": "86caa439-72ff-42a9-81a6-afb488164b57",
+    "type": "stock_update",
+    "ref": "EK1310",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.132Z"
+  },
+  {
+    "id": "1f7bc58e-6bab-4743-a616-fe1d521cc605",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.260Z"
+  },
+  {
+    "id": "445132d4-c9a6-4817-b4bd-47c250da3d69",
+    "type": "stock_update",
+    "ref": "EL1918",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.385Z"
+  },
+  {
+    "id": "d00d6fed-46ca-43bd-a615-a1026fb00ec6",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.506Z"
+  },
+  {
+    "id": "94ac24a7-aa38-4d1e-bdce-29fbd52e8f19",
+    "type": "stock_update",
+    "ref": "EL2904",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.629Z"
+  },
+  {
+    "id": "96edb6f6-f8d6-441e-8f65-2f99d9a43194",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:55.750Z"
+  },
+  {
+    "id": "ae86a6e1-8c0c-4ee8-a0d5-de50d71f2418",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:56.281Z"
+  },
+  {
+    "id": "b5b35eae-e7b7-4d8e-804f-129df3c09297",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:56.409Z"
+  },
+  {
+    "id": "2529c998-af88-46b1-8d7e-5f007f860df0",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:56.671Z"
+  },
+  {
+    "id": "e2a9af6b-500f-4831-9aa4-f35d0c4ed67d",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.062Z"
+  },
+  {
+    "id": "d301ee08-15c2-4638-9818-4f980d5b7d4f",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.183Z"
+  },
+  {
+    "id": "75872a8c-5283-4a54-bf58-5748ed278ae2",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.372Z"
+  },
+  {
+    "id": "5891a53e-2ddc-4d4b-a845-136133b12ea3",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.511Z"
+  },
+  {
+    "id": "11209b61-3fce-4c77-b320-084f7d5c25a7",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.649Z"
+  },
+  {
+    "id": "d4f3ceba-daa7-4f40-b365-012d5b58f08f",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.781Z"
+  },
+  {
+    "id": "5d9c45ee-72c1-4e02-b13e-cfffb47ae9ec",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:57.905Z"
+  },
+  {
+    "id": "ebd3382c-a97b-4b83-8365-ea40d69b8277",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.027Z"
+  },
+  {
+    "id": "c0c6d87a-a6ca-42e4-9ad8-e5e129ced426",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.151Z"
+  },
+  {
+    "id": "7f9c7abc-4da4-46b5-8a04-f4a253863004",
+    "type": "stock_update",
+    "ref": "A9P22616",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.273Z"
+  },
+  {
+    "id": "51b4d35c-996d-450e-9b39-3734c3c286f6",
+    "type": "stock_update",
+    "ref": "BMH1002T27F2A",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.403Z"
+  },
+  {
+    "id": "a7e05194-0989-4999-b08e-e21591a89533",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.690Z"
+  },
+  {
+    "id": "ce2aba77-55e8-404e-ad61-f60d4236fd72",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.830Z"
+  },
+  {
+    "id": "ebac9870-2b17-4b61-8788-0565f0142a56",
+    "type": "stock_update",
+    "ref": "NSYCVF54M230MM2",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:58.954Z"
+  },
+  {
+    "id": "6762ff4d-d453-43b3-8460-ac99ef5de89f",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.076Z"
+  },
+  {
+    "id": "66bc11ee-61d9-47ca-a23e-a82e1cfabe1f",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.268Z"
+  },
+  {
+    "id": "2afc1b91-b6d7-48a5-893a-2571cf2709fa",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.397Z"
+  },
+  {
+    "id": "0b3171dd-6d90-4422-994c-0a0f55ac697b",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.521Z"
+  },
+  {
+    "id": "eb7f5c6f-d3ad-4289-a748-96bde5068250",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.647Z"
+  },
+  {
+    "id": "d4ab6b65-1fe9-448e-8f37-78caa3dfd447",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.845Z"
+  },
+  {
+    "id": "c6cae02c-801c-4082-97fc-203eabb1af9c",
+    "type": "stock_update",
+    "ref": "SY7120-5LOU-C10F-Q",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:16:59.972Z"
+  },
+  {
+    "id": "feac2832-5b9c-4137-9799-eb48e5b60ac2",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:00.423Z"
+  },
+  {
+    "id": "ba600389-011f-486c-bae5-9dc1b1080158",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:00.577Z"
+  },
+  {
+    "id": "79838c84-fb52-48b8-8a7e-22309f7bfc77",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:00.708Z"
+  },
+  {
+    "id": "46457f04-1b6a-443a-8635-9dc1c4b7285c",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:00.833Z"
+  },
+  {
+    "id": "bca064d8-63fc-4a92-85b8-5b2cc9160bb1",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:00.954Z"
+  },
+  {
+    "id": "6561606b-1c92-44d6-b0b9-95241f442546",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:01.146Z"
+  },
+  {
+    "id": "687216a4-e3bc-4189-a4c4-32d5e2dbad9a",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:01.266Z"
+  },
+  {
+    "id": "fccbab45-bf40-4bcb-93f7-4ede824fc36e",
+    "type": "stock_update",
+    "ref": "2787-2146",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:01.391Z"
+  },
+  {
+    "id": "18c4b2ef-0842-4c11-a936-4a71e3247aa4",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:01.511Z"
+  },
+  {
+    "id": "48574f5b-74b3-47c2-b1f5-ce4c557c201e",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:17:01.639Z"
+  },
+  {
+    "id": "e78d15db-310b-4855-b347-150aefa7c495",
+    "type": "order_update",
+    "orderId": "1747639076653",
+    "oldStatus": "En cours",
+    "newStatus": "Reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:34:16.172Z"
+  },
+  {
+    "id": "0d95bd65-f0d7-46f8-930e-49555dc9943a",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:34:37.851Z"
+  },
+  {
+    "id": "9ad13fe1-d81d-4be8-9bcc-49d7e7094ce3",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:35:58.570Z"
+  },
+  {
+    "id": "c83300b5-1a9e-4150-a6c0-bf6a711549f6",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:00.269Z"
+  },
+  {
+    "id": "3f9bc3e3-cbcd-4bc7-a3cf-175a21049ef2",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:02.750Z"
+  },
+  {
+    "id": "d7128dc0-fc6d-4369-af93-93b727cb659e",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:03.806Z"
+  },
+  {
+    "id": "3679bc9d-f1bc-4cad-b643-286d3f9a41dd",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:05.607Z"
+  },
+  {
+    "id": "3199b523-2b4a-4ae2-8841-26c847e953f7",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:06.903Z"
+  },
+  {
+    "id": "3d5c1448-1fde-420d-9524-ab82de79e294",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:08.750Z"
+  },
+  {
+    "id": "d3fbc570-cece-4701-a3bb-5204c219a4d0",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:10.792Z"
+  },
+  {
+    "id": "60b610ad-cb6c-4554-80b9-41954c39eac6",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:12.438Z"
+  },
+  {
+    "id": "574ba986-94d6-462e-a631-a9bd4dcb1fe1",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:13.673Z"
+  },
+  {
+    "id": "60f0b46d-ef02-42ca-8584-a4b57ab2e929",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:14.844Z"
+  },
+  {
+    "id": "708d8495-bc3b-446b-a47b-b6b64efd83c9",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:16.420Z"
+  },
+  {
+    "id": "b3ed462b-c546-4d81-a838-037cc964154b",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:18.691Z"
+  },
+  {
+    "id": "d4db156b-bf8c-459f-910f-59ac33c7df2e",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:20.020Z"
+  },
+  {
+    "id": "d42b66f0-caf3-4fd7-8b66-1060c78cf16e",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:21.107Z"
+  },
+  {
+    "id": "e843ca93-0d89-47b6-b60f-9899683a119f",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:22.345Z"
+  },
+  {
+    "id": "189b0984-b7c8-41da-8d52-610ba5c1cc87",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:23.785Z"
+  },
+  {
+    "id": "668c6685-4283-4eb3-823a-aaaa83b0d286",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:25.057Z"
+  },
+  {
+    "id": "5ec1b055-2485-4ad2-841f-c68020f3c828",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:26.999Z"
+  },
+  {
+    "id": "a2a1c5f5-44ef-43c5-9d8b-9c5b6da75946",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:27.814Z"
+  },
+  {
+    "id": "c2971286-0457-4917-8824-0b51892da829",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-19T15:36:28.878Z"
+  },
+  {
+    "id": "cc776d02-eb4a-4c10-a5cb-376d2ce424ee",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T09:34:39.416Z"
+  },
+  {
+    "id": "41327ea6-9899-448f-924a-462c047a17b0",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T09:34:40.431Z"
+  },
+  {
+    "id": "e6a7021d-98a2-44ed-88df-42248580e339",
+    "type": "order_update",
+    "orderId": "1747403373787",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T09:34:43.421Z"
+  },
+  {
+    "id": "5b36b0dd-d72b-47c9-901c-96549c37263c",
+    "type": "order_update",
+    "orderId": "1747640281296",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:23:59.653Z"
+  },
+  {
+    "id": "44e4dce7-492f-4bc0-80eb-ac4ef3109ef8",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:24:00.514Z"
+  },
+  {
+    "id": "059a09a9-3311-4466-aa8a-088dcb3b3012",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:28:07.793Z"
+  },
+  {
+    "id": "ba07d933-0b7b-4070-89d5-c00d2843e3bb",
+    "type": "order_update",
+    "orderId": "1747667397056",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:28:08.461Z"
+  },
+  {
+    "id": "5a430932-58b4-47a2-a556-db4fb2d3e9d4",
+    "type": "stock_update",
+    "ref": "A9F74301",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": "5",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:44:27.933Z"
+  },
+  {
+    "id": "8af6fd67-b1d4-4592-b93b-f1d006b34041",
+    "type": "stock_update",
+    "ref": "A9F74301",
+    "field": "Qte stock",
+    "oldValue": "5",
+    "newValue": "5",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:44:32.977Z"
+  },
+  {
+    "id": "a467afdf-2c65-4757-bca6-92ed2f818e13",
+    "type": "stock_update",
+    "ref": "K50L2RGB7ALSQ",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": "5",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:44:43.252Z"
+  },
+  {
+    "id": "55a875f9-62aa-4685-9df4-1f654c2457e3",
+    "type": "stock_update",
+    "ref": "842-2798",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "2",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:44:48.146Z"
+  },
+  {
+    "id": "69481602-3ef3-4f7a-b75b-a292ca5e73d4",
+    "type": "stock_update",
+    "ref": "A9F74301",
+    "field": "Qte stock",
+    "oldValue": "5",
+    "newValue": "2",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T12:44:54.745Z"
+  },
+  {
+    "id": "280c4eff-b825-4918-995f-2e3547ece96d",
+    "type": "stock_update",
+    "ref": "842-2798",
+    "field": "Qte stock",
+    "oldValue": "2",
+    "newValue": "3",
+    "user": "Gabin Vigor",
+    "timestamp": "2025-05-20T13:00:23.169Z"
+  },
+  {
+    "id": "a4855c31-e145-4dce-b389-1adc7c430bc1",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "4",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:20:10.206Z"
+  },
+  {
+    "id": "0d636b74-6bf4-4839-b860-39122a0b6dea",
+    "type": "stock_update",
+    "ref": "MIL10-S2.LE.0005P",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "2",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:20:20.144Z"
+  },
+  {
+    "id": "b07db897-cfbb-4d07-8d09-ee068e2db98d",
+    "type": "stock_update",
+    "ref": "488-191",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": "20",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:20:27.119Z"
+  },
+  {
+    "id": "870197d0-4386-46d2-9e5a-bff175ae6400",
+    "type": "stock_create",
+    "ref": "test",
+    "field": null,
+    "oldValue": null,
+    "newValue": {
+      "Marque": "test",
+      "Ref": "test",
+      "Désignation": "test",
+      "Fournisseurs": "test",
+      "Qte stock": "8",
+      "Qte mini": "2"
+    },
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:20:45.556Z"
+  },
+  {
+    "id": "502341be-9574-4b2b-8227-b81c15d4bc51",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:22:00.393Z"
+  },
+  {
+    "id": "75a99d4f-18b0-46e3-9155-9f2c3f33014e",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:22:10.453Z"
+  },
+  {
+    "id": "65e8beac-b232-4c77-9654-ed38a1877820",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:22:47.974Z"
+  },
+  {
+    "id": "81e85b46-1d1c-4dbe-aa1e-055c690a3644",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "En cours",
+    "newStatus": "Reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:22:50.350Z"
+  },
+  {
+    "id": "8bf8dab2-27da-4f0d-8540-6ec55e41ca8b",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:23:16.141Z"
+  },
+  {
+    "id": "2ca98456-b0c8-4684-be74-dae44ad10dd1",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "En cours",
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:23:17.456Z"
+  },
+  {
+    "id": "ca2c5155-ab8b-4f52-8182-2b38fab3325b",
+    "type": "stock_update",
+    "ref": "K30LGRYPQ",
+    "field": "Qte stock",
+    "oldValue": "4",
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:25.513Z"
+  },
+  {
+    "id": "f312258b-bc33-4c9f-bb9d-a0b965fddbc2",
+    "type": "stock_update",
+    "ref": "C6017-0030",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:25.644Z"
+  },
+  {
+    "id": "31fec087-4e86-4e3a-b10d-995de0068480",
+    "type": "stock_update",
+    "ref": "CP3916-0010",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:25.808Z"
+  },
+  {
+    "id": "480d5a32-bfc8-426c-927e-ad2c9db8c3e1",
+    "type": "stock_update",
+    "ref": "CU8803-0000",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:25.933Z"
+  },
+  {
+    "id": "fce9f3a5-28fa-4649-ac7b-d0066f074bea",
+    "type": "stock_update",
+    "ref": "EK1100",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.052Z"
+  },
+  {
+    "id": "cd08b07c-32c5-44fc-bf16-a4c804cd691b",
+    "type": "stock_update",
+    "ref": "EL1809",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.175Z"
+  },
+  {
+    "id": "baf0e413-dcf4-457b-b042-379e1202dd2a",
+    "type": "stock_update",
+    "ref": "EL2809",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 1,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.293Z"
+  },
+  {
+    "id": "72811a4f-0a56-44b8-9844-03c7ccf9b54a",
+    "type": "stock_update",
+    "ref": "EL3022",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 1,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.415Z"
+  },
+  {
+    "id": "7f99fb36-0436-47bd-847b-f87a920c94fb",
+    "type": "stock_update",
+    "ref": "EL3312",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.545Z"
+  },
+  {
+    "id": "267a7a94-e181-43ec-aa2b-0d12e5085879",
+    "type": "stock_update",
+    "ref": "EL5101",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.734Z"
+  },
+  {
+    "id": "e8763fb8-87e0-42d1-a479-f957c14e1df7",
+    "type": "stock_update",
+    "ref": "EL6070",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 4,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.854Z"
+  },
+  {
+    "id": "efc52d08-a734-4910-8386-4f5731df9c71",
+    "type": "stock_update",
+    "ref": "EL9011",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:26.977Z"
+  },
+  {
+    "id": "51156318-e5cf-4ef6-945b-d99f9417d10a",
+    "type": "stock_update",
+    "ref": "DWA-172",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 4,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:27.239Z"
+  },
+  {
+    "id": "7254ceb6-880c-4a9b-ac46-cb7aef71bf89",
+    "type": "stock_update",
+    "ref": "09140006356",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 6,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:27.588Z"
+  },
+  {
+    "id": "95a7c9d9-308a-4bd7-9f05-86fe349f8a69",
+    "type": "stock_update",
+    "ref": "09140006466",
+    "field": "Qte stock",
+    "oldValue": 22,
+    "newValue": 10,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:27.771Z"
+  },
+  {
+    "id": "7c195a8d-5ac7-4abd-885f-1b5173d776c7",
+    "type": "stock_update",
+    "ref": "09140014623",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:27.898Z"
+  },
+  {
+    "id": "fb8b9187-9912-4479-a973-e15e163a5a65",
+    "type": "stock_update",
+    "ref": "09140014721",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.022Z"
+  },
+  {
+    "id": "48ec8900-f1e2-43d9-87fd-8cdff48743bc",
+    "type": "stock_update",
+    "ref": "09140020301",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.148Z"
+  },
+  {
+    "id": "955cf7fc-cbf8-48dd-abb5-fba98e711c76",
+    "type": "stock_update",
+    "ref": "09140020311",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.274Z"
+  },
+  {
+    "id": "a60de6ca-72e4-4c9e-977e-0c19a553172d",
+    "type": "stock_update",
+    "ref": "09140033501",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 1,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.400Z"
+  },
+  {
+    "id": "fcbddb69-e7fe-40a9-9aef-3d872e59c2ec",
+    "type": "stock_update",
+    "ref": "09140253001",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.522Z"
+  },
+  {
+    "id": "f9ad23a8-19d7-499f-a3c2-f0e46e943e50",
+    "type": "stock_update",
+    "ref": "09140253101",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.703Z"
+  },
+  {
+    "id": "6958da4e-a329-49cc-8a03-a9fca55bad95",
+    "type": "stock_update",
+    "ref": "09670008470",
+    "field": "Qte stock",
+    "oldValue": 100,
+    "newValue": 32,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:28.952Z"
+  },
+  {
+    "id": "4de4cab8-987b-45bc-93a8-3ef264563cfd",
+    "type": "stock_update",
+    "ref": "09670008570",
+    "field": "Qte stock",
+    "oldValue": 100,
+    "newValue": 32,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:29.077Z"
+  },
+  {
+    "id": "23a52e27-b0d8-4667-bb0e-3e90f99cd953",
+    "type": "stock_update",
+    "ref": "19140020402",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:29.199Z"
+  },
+  {
+    "id": "5770b493-9b0c-4c62-ab6b-192c9863f39d",
+    "type": "stock_update",
+    "ref": "SV4204",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:29.449Z"
+  },
+  {
+    "id": "ab162fa4-d555-4d8b-bcdb-a502c0860955",
+    "type": "stock_update",
+    "ref": "050445",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:29.708Z"
+  },
+  {
+    "id": "ecd7ba83-efbf-4fad-b477-a74e7cdbd5d0",
+    "type": "stock_update",
+    "ref": "1482522",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:29.846Z"
+  },
+  {
+    "id": "701139b0-9dbc-43e1-b25e-bf79c9484a09",
+    "type": "stock_update",
+    "ref": "1482527",
+    "field": "Qte stock",
+    "oldValue": 8,
+    "newValue": 4,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:29.972Z"
+  },
+  {
+    "id": "790a3b7c-8847-45b4-b773-16c2ec5f4257",
+    "type": "stock_update",
+    "ref": "1060.000",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.175Z"
+  },
+  {
+    "id": "0cd314a7-2736-4eab-8330-50659fff960b",
+    "type": "stock_update",
+    "ref": "182-8784",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.304Z"
+  },
+  {
+    "id": "f6058c9b-95f8-4304-9521-97790f9d77fe",
+    "type": "stock_update",
+    "ref": "251-3217",
+    "field": "Qte stock",
+    "oldValue": 35,
+    "newValue": 31,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.430Z"
+  },
+  {
+    "id": "23dd0c59-11d7-42e6-a8c5-a9134d55de1d",
+    "type": "stock_update",
+    "ref": "286-3222",
+    "field": "Qte stock",
+    "oldValue": 29,
+    "newValue": 17,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.554Z"
+  },
+  {
+    "id": "1b67c6b0-f3bf-46c5-86a0-c227cd69e66c",
+    "type": "stock_update",
+    "ref": "411-312",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.680Z"
+  },
+  {
+    "id": "c5718a33-6433-4091-83f1-a7039085b6da",
+    "type": "stock_update",
+    "ref": "621-2271",
+    "field": "Qte stock",
+    "oldValue": 10,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.804Z"
+  },
+  {
+    "id": "1a5f71a9-d629-42a1-89b3-8e734dbe308a",
+    "type": "stock_update",
+    "ref": "877-1848",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:30.925Z"
+  },
+  {
+    "id": "c3ecc54f-a702-4b87-8b2d-5e0343a455f8",
+    "type": "stock_update",
+    "ref": "A9A15306",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.055Z"
+  },
+  {
+    "id": "93abb051-113f-42c1-8d76-86e697c24e7d",
+    "type": "stock_update",
+    "ref": "A9P22601",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.183Z"
+  },
+  {
+    "id": "d389ea7d-1dfc-4a86-b227-a76559b6e30f",
+    "type": "stock_update",
+    "ref": "A9P22602",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.305Z"
+  },
+  {
+    "id": "f3ef888e-aedd-4094-aa8c-573b4dd3c16f",
+    "type": "stock_update",
+    "ref": "A9P22604",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.428Z"
+  },
+  {
+    "id": "a5bf3dd0-b133-4c3f-ac74-cc8200811ef4",
+    "type": "stock_update",
+    "ref": "BSH0553T12A2A",
+    "field": "Qte stock",
+    "oldValue": 5,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.557Z"
+  },
+  {
+    "id": "302e3589-fec9-495e-a00e-bb109d5ea22f",
+    "type": "stock_update",
+    "ref": "LP1K0910BD",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.683Z"
+  },
+  {
+    "id": "80d9e5ab-789d-48bc-9ffe-06c3a2d6ae1b",
+    "type": "stock_update",
+    "ref": "LXM32MU90M2",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.808Z"
+  },
+  {
+    "id": "28c87fcf-cf23-4fab-8019-9f0af1de1488",
+    "type": "stock_update",
+    "ref": "NSYCAG92LPF",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:31.951Z"
+  },
+  {
+    "id": "5ba3237f-a483-4c63-8ed2-d606da0edf02",
+    "type": "stock_update",
+    "ref": "NSYCCOTHO",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.080Z"
+  },
+  {
+    "id": "0f4688ec-39a6-4541-bddd-d252a290dd12",
+    "type": "stock_update",
+    "ref": "NSYCVF38M230PF",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.212Z"
+  },
+  {
+    "id": "eec1eecf-32e0-4e6f-8f1d-cdc72ac32e2d",
+    "type": "stock_update",
+    "ref": "R9PRC225",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.345Z"
+  },
+  {
+    "id": "9c809428-593b-4f21-a7f8-cbe06a8cb653",
+    "type": "stock_update",
+    "ref": "VCF0",
+    "field": "Qte stock",
+    "oldValue": 0,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.575Z"
+  },
+  {
+    "id": "240cdb53-06dd-4060-878b-b5ea40509145",
+    "type": "stock_update",
+    "ref": "VW3A3601",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.697Z"
+  },
+  {
+    "id": "babf9fcc-9c6e-4390-80a9-e8d0e3532938",
+    "type": "stock_update",
+    "ref": "VW3M5101R100",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.823Z"
+  },
+  {
+    "id": "08ebd156-1d67-470f-9df7-8f02f396a754",
+    "type": "stock_update",
+    "ref": "VW3M8102R100",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:32.953Z"
+  },
+  {
+    "id": "e4c8a4ae-df2e-4d63-94b1-b2d29eadb544",
+    "type": "stock_update",
+    "ref": "XB4BVM1",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.082Z"
+  },
+  {
+    "id": "6228fabc-bfaf-40aa-886a-673692accf97",
+    "type": "stock_update",
+    "ref": "ZB4BD2",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.210Z"
+  },
+  {
+    "id": "8538240e-c4b7-4c18-9814-4562d93df51e",
+    "type": "stock_update",
+    "ref": "ZB4BZ009",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 14,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.334Z"
+  },
+  {
+    "id": "06813d50-8304-4f0f-968c-46d4da7137a4",
+    "type": "stock_update",
+    "ref": "ZBE1015",
+    "field": "Qte stock",
+    "oldValue": 18,
+    "newValue": 14,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.463Z"
+  },
+  {
+    "id": "bc43da4d-133e-4d0f-a06e-a857a4aa1246",
+    "type": "stock_update",
+    "ref": "3SK1111-1AB30",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.660Z"
+  },
+  {
+    "id": "f8b4908f-ab01-4e5b-ae7d-5c06e869eae0",
+    "type": "stock_update",
+    "ref": "VX210AGA",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.881Z"
+  },
+  {
+    "id": "d4e69c99-61db-4f77-b236-e24bff86db25",
+    "type": "stock_update",
+    "ref": "ISE20-P-01-L",
+    "field": "Qte stock",
+    "oldValue": 4,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:33.999Z"
+  },
+  {
+    "id": "c918d53e-4e11-40cd-99aa-2561033bfa99",
+    "type": "stock_update",
+    "ref": "2020-1204",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:34.183Z"
+  },
+  {
+    "id": "170c94ed-5fe1-4436-8095-f4f47795e5d0",
+    "type": "stock_update",
+    "ref": "2020-184",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:34.310Z"
+  },
+  {
+    "id": "25d3e363-f2ec-4257-a843-e20534b5bfd3",
+    "type": "stock_update",
+    "ref": "2102-1301",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:34.439Z"
+  },
+  {
+    "id": "fd368c43-eda4-414a-8bc0-c346e31eae58",
+    "type": "stock_update",
+    "ref": "2102-1304",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:34.577Z"
+  },
+  {
+    "id": "44bf873e-6fc4-4eae-812a-2c6e16ef5286",
+    "type": "stock_update",
+    "ref": "2102-1307",
+    "field": "Qte stock",
+    "oldValue": 1,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:34.710Z"
+  },
+  {
+    "id": "0c4b90d2-6dd5-486d-96d3-a47e7195f7ea",
+    "type": "stock_update",
+    "ref": "2206-8033",
+    "field": "Qte stock",
+    "oldValue": 66,
+    "newValue": 54,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:34.912Z"
+  },
+  {
+    "id": "f3c73bb4-ccfa-4e5b-9d02-3c6ff65509bf",
+    "type": "stock_update",
+    "ref": "2206-8034",
+    "field": "Qte stock",
+    "oldValue": 60,
+    "newValue": 48,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:35.046Z"
+  },
+  {
+    "id": "3f26cba8-0494-4aef-9aa5-ed5bf350572e",
+    "type": "stock_update",
+    "ref": "2787-2144",
+    "field": "Qte stock",
+    "oldValue": 6,
+    "newValue": 2,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:35.194Z"
+  },
+  {
+    "id": "03aa2340-8926-4697-bdd2-06a46603b8bd",
+    "type": "stock_update",
+    "ref": "787-3664",
+    "field": "Qte stock",
+    "oldValue": 2,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:35.314Z"
+  },
+  {
+    "id": "6eb50fa5-b5e7-4117-b55e-5ad66dc55a56",
+    "type": "stock_update",
+    "ref": "2682130000",
+    "field": "Qte stock",
+    "oldValue": 3,
+    "newValue": 0,
+    "user": "Nino Marquet",
+    "timestamp": "2025-05-20T13:25:35.434Z"
+  },
+  {
+    "id": "49f9737c-fcc9-4c6c-92dc-c4af45ca34f8",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "En cours",
+    "newStatus": "Partiellement reçue",
+    "user": "Anthony Trouvé",
+    "timestamp": "2025-05-20T13:26:32.679Z"
+  },
+  {
+    "id": "561f8b69-e97d-4a22-b796-9fc02534c8dd",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Reçue",
+    "user": "Anthony Trouvé",
+    "timestamp": "2025-05-20T13:26:36.781Z"
+  },
+  {
+    "id": "f599a34a-43de-4b2e-ab29-c5e398952328",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Anthony Trouvé",
+    "timestamp": "2025-05-20T13:27:02.032Z"
+  },
+  {
+    "id": "7a510eb4-49ca-4f61-968e-a0f7e013665e",
+    "type": "order_update",
+    "orderId": "1747747292716",
+    "oldStatus": "Partiellement reçue",
+    "newStatus": "Partiellement reçue",
+    "user": "Anthony Trouvé",
+    "timestamp": "2025-05-20T13:27:09.603Z"
+  }
+]

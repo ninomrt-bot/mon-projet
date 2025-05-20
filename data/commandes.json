@@ -1,0 +1,24 @@
+[
+  {
+    "messages": [
+      {
+        "from": "Nino Marquet",
+        "text": "ok test",
+        "at": "2025-05-20T13:22:10.146Z"
+      },
+      {
+        "from": "Anthony Trouvé",
+        "text": "ok",
+        "at": "2025-05-20T13:27:09.598Z"
+      }
+    ],
+    "statut": "Partiellement reçue",
+    "comment": null,
+    "creatorEmail": "nino.marquet@stirweld.com",
+    "id": "1747747292716",
+    "filename": "M06_-_Bus_bar_-_C005_-_ETN.pdf",
+    "url": "/uploads/xty9og1ztsmg0l6r3wzqtw4p9.pdf",
+    "createdAt": "2025-05-20T13:21:32.716Z",
+    "creator": "Nino Marquet"
+  }
+]
