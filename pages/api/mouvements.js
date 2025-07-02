@@ -1,7 +1,7 @@
 import { writeFile, readFile } from "fs/promises";
 import path from "path";
 
-async function logStockUpdate({ ref, oldValue, newValue, user }) {
+export async function logStockUpdate({ ref, oldValue, newValue, user }) {
   const histPath = path.join(process.cwd(), "data", "stockHistory.json");
   let history = [];
   try {
