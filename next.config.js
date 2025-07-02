@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  // ajoute ici d’autres options si tu en as besoin
+  images: { domains: ["your-s3-bucket.s3.amazonaws.com"] },
+  poweredByHeader: false,
 };
