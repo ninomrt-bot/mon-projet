@@ -4,6 +4,12 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import AsanaProvider from "../../../lib/providers/asana";
 import { USERS } from "../../../data/users.sample";
 import bcrypt from "bcryptjs";
+import {
+  isLocked,
+  recordFailed,
+  clearAttempts,
+  getPasswordHash
+} from "../../../lib/loginSecurity";
 
 
 export const authOptions = {
@@ -23,10 +29,20 @@ export const authOptions = {
         if (!user) {
           return null;
         }
-        const ok = await bcrypt.compare(credentials.password, user.passwordHash);
+
+        const lock = isLocked(user.id);
+        if (lock.locked) {
+          throw new Error(`LOCKED:${Math.ceil(lock.remainingMs / 60000)}`);
+        }
+
+        const pwdHash = getPasswordHash(user.id, user.passwordHash);
+        const ok = await bcrypt.compare(credentials.password, pwdHash);
         if (!ok) {
+          recordFailed(user.id);
           return null;
         }
+
+        clearAttempts(user.id);
         return {
           id: user.id,
           name: user.name,
