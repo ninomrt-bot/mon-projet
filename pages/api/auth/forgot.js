@@ -12,11 +12,11 @@ export default async function handler(req, res) {
   if (!email) return res.status(400).json({ error: "email required" });
 
   const user = USERS.find(u => u.email === email || u.username === email);
-  if (!user) return res.status(200).json({ ok: true }); // Pas d'indication si l'utilisateur existe ou non
+  if (!user) return res.status(200).json({ ok: true });
 
   const token = createResetToken(user.id);
   const transporter = getTransporter();
-
+  
   const baseUrl =
     process.env.NEXTAUTH_URL ||
     `${req.headers["x-forwarded-proto"] || "http"}://${req.headers.host}`;
@@ -24,19 +24,16 @@ export default async function handler(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `"Stock App" <${process.env.SMTP_USER}>`,
+      from: `"Stock App"<${process.env.SMTP_USER}>`,
       to: user.email,
       subject: "Réinitialisation de mot de passe",
       text: `Bonjour ${user.name},\n\nCliquez sur le lien suivant pour réinitialiser votre mot de passe : ${resetUrl}\nCe lien expire dans 1 heure.`,
     });
-
-    console.log(`Reset mail sent to ${user.email}`);
-    res.status(200).json({ ok: true });
-
   } catch (e) {
     console.error("Send reset mail failed:", e.message);
-    res.status(500).json({ error: "Erreur lors de l'envoi de l'e-mail" });
   }
+
+  res.status(200).json({ ok: true });
 }
 
 export const config = { api: { bodyParser: true } };
