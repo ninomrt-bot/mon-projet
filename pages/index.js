@@ -22,7 +22,7 @@ export async function getServerSideProps(context) {
   // Sinon → /stock
   return {
     redirect: {
-      destination: "/stock",
+      destination: "/dashboard",
       permanent: false,
     },
   };

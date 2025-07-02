@@ -1,15 +1,17 @@
 // pages/api/auth/[...nextauth].js
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import AsanaProvider from "../../../lib/providers/asana"; 
 
-// Liste des utilisateurs pour l’authentification et le fallback email
-export const USERS = [
+// Liste des utilisateurs internes (CredentialsProvider) avec leur image
+const USERS = [
   {
     id: "1",
     username: "nino.marquet",
     password: "1",
     name: "Nino Marquet",
     email: "nino.marquet@stirweld.com",
+    image: "/photo_user/Ninomarquet.jpg"
   },
   {
     id: "2",
@@ -17,6 +19,7 @@ export const USERS = [
     password: "2",
     name: "Anthony Trouvé",
     email: "anthony.trouve@stirweld.com",
+    image: "/photo_user/Anthonytrouvé.jpg"
   },
   {
     id: "3",
@@ -24,6 +27,7 @@ export const USERS = [
     password: "3",
     name: "Dominique Dubourg",
     email: "dominique.dubourg@stirweld.com",
+    image: "/photo_user/Dominiquedubourg.jpg"
   },
   {
     id: "4",
@@ -31,62 +35,93 @@ export const USERS = [
     password: "4",
     name: "Gabin Dubourg",
     email: "gabin.dubourg@stirweld.com",
+    image: "/photo_user/Gabindubourg.jpg"
   },
   {
     id: "5",
     username: "gabin.vigor",
-    password: "5",
+    password: "leplusbeau",
     name: "Gabin Vigor",
     email: "gabin.vigor@stirweld.com",
+    image: "/photo_user/Gabinvigor.jpg"
   },
+  {
+    id: "5",
+    username: "admin",
+    password: "12345",
+    name: "admin",
+    email: "admin",
+    image: "/photo_user/Ninomarquet.JPG"
+  }
 ];
 
-export default NextAuth({
+export const authOptions = {
+  session: {
+    strategy: "jwt"
+  },
   providers: [
+    // 1) Provider interne (CredentialsProvider)
     CredentialsProvider({
       name: "Credentials",
       credentials: {
         username: { label: "Utilisateur", type: "text" },
-        password: { label: "Mot de passe", type: "password" },
+        password: { label: "Mot de passe", type: "password" }
       },
       async authorize(credentials) {
-        // Vérifie username + password
         const user = USERS.find(
           (u) =>
             u.username === credentials.username &&
             u.password === credentials.password
         );
-        if (user) {
-          // Retourne l’objet session avec l’email
-          return { id: user.id, name: user.name, email: user.email, image: null };
+        if (!user) {
+          return null;
         }
-        return null;
-      },
+        return {
+          id: user.id,
+          name: user.name,
+          email: user.email,
+          image: user.image
+        };
+      }
     }),
+
+    // 2) Provider Asana (OAuth2 via notre fichier lib/providers/asana.js)
+    AsanaProvider({
+      clientId: process.env.ASANA_CLIENT_ID,
+      clientSecret: process.env.ASANA_CLIENT_SECRET
+    })
   ],
 
-  session: {
-    strategy: "jwt", // on utilise le JWT pour propager l’email
-  },
-
   callbacks: {
-    // Ajoute name et email dans le token JWT
-    async jwt({ token, user }) {
-      if (user) {
-        token.name = user.name;
-        token.email = user.email;
-        token.image = user.image;
+    async jwt({ token, user, account }) {
+      // a) Si connexion via CredentialsProvider : NextAuth a déjà ajouté id/name/email/image à token
+      if (user && !account) {
+        return token;
+      }
+      // b) Si connexion via Asana : account.provider === "asana" et account.access_token contient l’accessToken Asana
+      if (account?.provider === "asana" && account.access_token) {
+        token.asanaAccessToken = account.access_token;
       }
       return token;
     },
-    // Rend name et email disponibles dans session.user côté client
     async session({ session, token }) {
-      session.user.name = token.name;
-      session.user.email = token.email;
-      session.user.image = token.image;
+      // 1) Transférer name/email/image (cas CredentialsProvider)
+      if (token.name) session.user.name = token.name;
+      if (token.email) session.user.email = token.email;
+      if (token.image) session.user.image = token.image;
+      // 2) Transférer asanaAccessToken (cas AsanaProvider)
+      if (token.asanaAccessToken) {
+        session.user.asanaAccessToken = token.asanaAccessToken;
+      }
       return session;
-    },
+    }
   },
 
-  secret: process.env.NEXTAUTH_SECRET,
-});
+  pages: {
+    signIn: "/login"
+  },
+
+  secret: process.env.NEXTAUTH_SECRET
+};
+
+export default NextAuth(authOptions);

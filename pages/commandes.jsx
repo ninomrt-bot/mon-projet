@@ -1,82 +1,74 @@
-// pages/commandes.jsx
-import { useState, useEffect } from "react";
+// ...imports existants...
+import React, { useState, useEffect, useMemo } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
-import useSWR from "swr";
+import useSWR, { mutate as globalMutate } from "swr";
 import { PaperClipIcon, TrashIcon } from "@heroicons/react/24/solid";
 
 const fetcher = (url) => fetch(url).then((r) => r.json());
+const STATUTS = ["en cours", "partielle", "terminée"];
+const COL_CLASS = {
+  "en cours": "bg-yellow-100",
+  partielle: "bg-orange-100",
+  terminée: "bg-green-100",
+};
 
 export default function CommandesPage() {
   const { data: session, status } = useSession();
   const router = useRouter();
+  const { data: cmds, error, mutate } = useSWR(
+    status === "authenticated" ? "/api/commandes" : null,
+    fetcher
+  );
 
-  // 1) Redirect to login if not authenticated
+  const [file, setFile] = useState(null);
+  const [sel, setSel] = useState(null);
+  const [newMsg, setNewMsg] = useState("");
+  const [dragId, setDragId] = useState("");
+  const [csvPreview, setCsvPreview] = useState("");
+  const [showReception, setShowReception] = useState(false);
+
   useEffect(() => {
     if (status === "unauthenticated") router.push("/login");
   }, [status, router]);
-  if (status === "loading") return <div>Chargement…</div>;
-  if (status === "unauthenticated") return null;
 
-  // 2) Load commandes and set up state
-  const { data: items, error, mutate } = useSWR("/api/commandes", fetcher);
-  const [columns, setColumns] = useState({
-    "En cours": [],
-    "Partiellement reçue": [],
-    Reçue: [],
-  });
-  const [file, setFile] = useState(null);
-  const [selected, setSelected] = useState(null);
-  const [newMsg, setNewMsg] = useState("");
-
-  useEffect(() => {
-    if (!items) return;
-    setColumns({
-      "En cours": items.filter((i) => i.statut === "En cours"),
-      "Partiellement reçue": items.filter((i) => i.statut === "Partiellement reçue"),
-      Reçue: items.filter((i) => i.statut === "Reçue"),
+  const kanban = useMemo(() => {
+    const cols = STATUTS.reduce((o, s) => ({ ...o, [s]: [] }), {});
+    (cmds || []).forEach((c) => {
+      const st = STATUTS.includes(c.statut) ? c.statut : "en cours";
+      cols[st].push(c);
     });
-  }, [items]);
+    return cols;
+  }, [cmds]);
 
-  if (error) return <div>Erreur de chargement</div>;
-  if (!items) return <div>Chargement des commandes…</div>;
-
-  // 3) Upload PDF
-  const onUpload = async (e) => {
+  async function uploadPdf(e) {
     e.preventDefault();
     if (!file) return;
-    const form = new FormData();
-    form.append("file", file);
-    await fetch("/api/commandes", { method: "POST", body: form });
+    const fd = new FormData();
+    fd.append("file", file);
+    await fetch("/api/commandes", { method: "POST", body: fd });
     setFile(null);
     mutate();
-  };
-
-  // 4) Drag & Drop handlers
-  const handleDragStart = (id) => (e) => {
-    e.dataTransfer.setData("text/plain", id);
-  };
-  const handleDrop = newStatut => async e => {
-    e.preventDefault()
-    const id = e.dataTransfer.getData('text/plain')
-    await fetch('/api/commandes', {
-      method: 'PUT',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ id, statut: newStatut })
-    })
-    mutate()
   }
-  
 
-  // 5) Send chat message
-  const sendMessage = async () => {
-    if (!newMsg.trim() || !selected) return;
+  async function move(id, toStat) {
+    await fetch("/api/commandes", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, statut: toStat }),
+    });
+    mutate();
+    if (toStat === "terminée") globalMutate("/api/stock");
+    if (sel?.id === id) setSel((prev) => ({ ...prev, statut: toStat }));
+  }
+
+  async function send() {
+    if (!sel || !newMsg.trim()) return;
     await fetch("/api/commandes", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        id: selected.id,
-        statut: selected.statut, // keep existing statut
+        id: sel.id,
         newMessage: {
           from: session.user.name,
           text: newMsg.trim(),
@@ -85,60 +77,119 @@ export default function CommandesPage() {
       }),
     });
     setNewMsg("");
-    // re-fetch and update selected
     const updated = await fetcher("/api/commandes");
     mutate(updated, false);
-    setSelected(updated.find((c) => c.id === selected.id));
-  };
+    setSel(updated.find((c) => c.id === sel.id));
+  }
 
-  // 6) Delete a commande
-  const deleteCmd = async (id) => {
+  async function del(id) {
     if (!confirm("Supprimer cette commande ?")) return;
     await fetch(`/api/commandes?id=${id}`, { method: "DELETE" });
     mutate();
-    if (selected?.id === id) setSelected(null);
-  };
+    if (sel?.id === id) setSel(null);
+  }
+
+  useEffect(() => {
+    if (!sel) {
+      setCsvPreview("");
+      return;
+    }
+    const lower = sel.filename?.toLowerCase() || "";
+    if (lower.endsWith(".csv") && sel.url) {
+      fetch(sel.url)
+        .then((resp) => resp.text())
+        .then((txt) => setCsvPreview(txt))
+        .catch(() => setCsvPreview("Impossible de charger l’aperçu CSV."));
+    } else {
+      setCsvPreview("");
+    }
+  }, [sel]);
+
+  // --- Réception partielle ---
+  function parseCsvLines(csv) {
+    if (!csv) return [];
+    const [header, ...lines] = csv.trim().split("\n");
+    const headers = header.split(";");
+    return lines
+      .filter((l) => l.trim())
+      .map((l) => {
+        const cells = l.split(";");
+        const obj = {};
+        headers.forEach((h, i) => (obj[h.trim()] = cells[i]?.trim() || ""));
+        // Normalisation des champs pour l'affichage
+        obj.Ref = obj.Ref || obj["Réf"] || obj["ref"] || obj["REF"] || ""; // adapte selon ton CSV
+        obj.Designation = obj["Désignation"] || obj["Designation"] || "";
+        obj.qty =
+          Number(obj["Qté"]) ||
+          Number(obj["Qte"]) ||
+          Number(obj["Quantité"]) ||
+          Number(obj["Qte commandée"]) ||
+          Number(obj["En Commande"]) ||
+          0;
+        return obj;
+      });
+  }
+
+  async function handleReceptionPartielle(lignesRecues) {
+    // Appel API pour mettre à jour la commande et le stock
+    await fetch("/api/commandes", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        id: sel.id,
+        reception: lignesRecues, // [{Ref, qty}]
+      }),
+    });
+    mutate();
+    globalMutate("/api/stock");
+    setShowReception(false);
+    setSel(null);
+  }
+
+  if (status === "loading") return <p>Connexion…</p>;
+  if (error) return <p className="text-red-600">Erreur de chargement</p>;
 
   return (
-    <div className="space-y-6 p-6">
-      {/* Header + Upload */}
-      <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Gestion des Commandes</h1>
-        <span className="font-medium">{}</span>
-      </div>
-      <form onSubmit={onUpload} className="flex gap-2 items-center">
+    <div className="p-6 space-y-6">
+      <h1 className="text-2xl font-bold">Commandes fournisseurs</h1>
+
+      {/* Upload PDF */}
+      <form onSubmit={uploadPdf} className="flex items-center gap-2">
         <input
           type="file"
           accept=".pdf"
-          onChange={(e) => setFile(e.target.files[0])}
+          onChange={(e) => setFile(e.target.files[0] || null)}
           className="border p-1"
         />
         <button
           type="submit"
           disabled={!file}
-          className="bg-blue-600 text-white py-1 px-3 rounded disabled:opacity-50"
+          className="bg-blue-600 text-white rounded px-4 py-1 disabled:opacity-50"
         >
-          Ajouter
+          Ajouter PDF
         </button>
       </form>
 
-      {/* Kanban columns */}
+      {/* Kanban */}
       <div className="flex gap-4">
-        {Object.entries(columns).map(([colId, list]) => (
+        {STATUTS.map((st) => (
           <div
-            key={colId}
+            key={st}
             onDragOver={(e) => e.preventDefault()}
-            onDrop={handleDrop(colId)}
-            className="flex-1 bg-blue-50 rounded p-3 min-h-[400px] space-y-2"
+            onDrop={() => {
+              if (dragId) move(dragId, st);
+              setDragId("");
+            }}
+            className={`flex-1 p-3 rounded space-y-2 ${COL_CLASS[st]}`}
           >
-            <h2 className="font-semibold mb-2">{colId}</h2>
-            {list.map((cmd) => (
+            <h2 className="font-semibold mb-2 capitalize">{st}</h2>
+            {kanban[st].map((c) => (
               <div
-                key={cmd.id}
+                key={c.id}
                 draggable
-                onDragStart={handleDragStart(cmd.id)}
+                onDragStart={() => setDragId(c.id)}
                 onClick={() => {
-                  setSelected(cmd);
+                  setSel(c);
                   setNewMsg("");
                 }}
                 className="bg-white rounded shadow p-3 space-y-1 cursor-move relative"
@@ -146,92 +197,170 @@ export default function CommandesPage() {
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    deleteCmd(cmd.id);
+                    del(c.id);
                   }}
                   className="absolute top-1 right-1 text-red-500"
                 >
                   <TrashIcon className="h-4 w-4" />
                 </button>
-                <div className="flex justify-between">
-                  <span className="text-sm">{cmd.filename}</span>
-                  <PaperClipIcon className="h-4 w-4 text-gray-500" />
+                <div className="flex justify-between text-sm">
+                  <span>{c.filename || c.id}</span>
+                  {c.url && <PaperClipIcon className="h-4 w-4 text-gray-500" />}
                 </div>
-                <div className="text-xs text-gray-500">Créé par {cmd.creator}</div>
+                <div className="text-xs text-gray-500">
+                  Créé par {c.creator}
+                </div>
               </div>
             ))}
           </div>
         ))}
       </div>
 
-      {/* Detail Modal + Chat */}
-      {selected && (
+      {/* Détail + aperçu (PDF ou CSV) */}
+      {sel && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4"
-          onClick={() => setSelected(null)}
+          className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
+          onClick={() => setSel(null)}
         >
           <div
-            className="bg-white rounded-lg overflow-hidden max-w-xl w-full"
+            className="bg-white max-w-xl w-full rounded-lg overflow-auto shadow-lg"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Header */}
-            <div className="flex justify-between items-center p-4 border-b">
-              <h2 className="text-lg font-semibold">{selected.filename}</h2>
-              <button onClick={() => setSelected(null)}>✕</button>
+            <div className="flex justify-between items-center px-4 py-2 border-b">
+              <h2 className="font-semibold">{sel.filename || sel.id}</h2>
+              <button onClick={() => setSel(null)}>✕</button>
             </div>
+
             <div className="p-4 space-y-4">
               <p>
-                <strong>Statut :</strong> {selected.statut}
+                <strong>Statut :</strong> {sel.statut}
               </p>
-              {selected.comment && (
-                <p>
-                  <strong>Commentaire :</strong> {selected.comment}
-                </p>
-              )}
               <p>
-                <strong>Créé par :</strong> {selected.creator} —{" "}
-                <time dateTime={selected.createdAt}>
-                  {new Date(selected.createdAt).toLocaleString("fr-FR")}
-                </time>
+                <strong>Fournisseur :</strong> {sel.fournisseur || "N/A"}
+              </p>
+              <p className="text-sm text-gray-600">
+                <strong>Créé par :</strong> {sel.creator} —{" "}
+                {new Date(sel.createdAt).toLocaleString("fr-FR")}
               </p>
 
-              {/* PDF preview */}
-              <div className="h-80 border">
-                <object
-                  data={selected.url}
-                  type="application/pdf"
-                  width="100%"
-                  height="100%"
-                >
-                  PDF non supporté
-                </object>
-              </div>
+              {/* Aperçu PDF */}
+              {sel.url?.toLowerCase().endsWith(".pdf") && (
+                <div className="h-72 border">
+                  <object
+                    data={sel.url}
+                    type="application/pdf"
+                    width="100%"
+                    height="100%"
+                  >
+                    PDF non supporté.
+                    <a
+                      href={sel.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      Télécharger le PDF
+                    </a>
+                  </object>
+                </div>
+              )}
 
-              {/* Chat history */}
-              <div className="max-h-48 overflow-y-auto space-y-2 border p-2">
-                {(selected.messages || []).map((m, i) => (
-                  <div key={i} className="text-sm">
+              {/* Aperçu CSV */}
+              {sel.url?.toLowerCase().endsWith(".csv") && (
+                <div className="overflow-auto border rounded max-h-72">
+                  {csvPreview ? (
+                    <table className="min-w-full table-auto text-xs">
+                      <thead className="bg-gray-100">
+                        <tr>
+                          {csvPreview
+                            .trim()
+                            .split("\n")[0]
+                            .split(";")
+                            .map((h, idx) => (
+                              <th key={idx} className="px-2 py-1 text-left">
+                                {h}
+                              </th>
+                            ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {csvPreview
+                          .trim()
+                          .split("\n")
+                          .slice(1)
+                          .filter((line) => line.trim().length > 0)
+                          .map((line, i) => {
+                            const cells = line.split(";");
+                            return (
+                              <tr
+                                key={i}
+                                className={i % 2 ? "bg-gray-50" : ""}
+                              >
+                                {cells.map((cell, j) => (
+                                  <td
+                                    key={j}
+                                    className="px-2 py-1 whitespace-nowrap"
+                                  >
+                                    {cell}
+                                  </td>
+                                ))}
+                              </tr>
+                            );
+                          })}
+                      </tbody>
+                    </table>
+                  ) : (
+                    <p className="p-4 text-gray-600">
+                      Chargement de l’aperçu CSV…
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {/* Bouton réception partielle */}
+              {sel.statut === "partielle" && csvPreview && (
+                <button
+                  className="bg-blue-600 text-white px-3 py-1 rounded"
+                  onClick={() => setShowReception(true)}
+                >
+                  Réception partielle
+                </button>
+              )}
+
+              {/* Modale réception partielle */}
+              {showReception && (
+                <ReceptionPartielleModal
+                  lignes={parseCsvLines(csvPreview)}
+                  onClose={() => setShowReception(false)}
+                  onValide={handleReceptionPartielle}
+                  dejaRecues={sel.receivedLines || []}
+                />
+              )}
+
+              {/* Chat */}
+              <div className="border p-2 max-h-48 overflow-y-auto text-sm space-y-2">
+                {(sel.messages || []).map((m, i) => (
+                  <div key={i}>
                     <span className="font-medium">{m.from}</span>{" "}
-                    <span className="text-gray-500 text-xs">
-                      ({new Date(m.at).toLocaleTimeString("fr-FR")})
+                    <span className="text-xs text-gray-500">
+                      {new Date(m.at).toLocaleTimeString("fr-FR")}
                     </span>
                     <div>{m.text}</div>
                   </div>
                 ))}
               </div>
 
-              {/* Chat input */}
               <div className="flex gap-2">
                 <input
-                  type="text"
                   value={newMsg}
                   onChange={(e) => setNewMsg(e.target.value)}
-                  placeholder="Ajouter un message…"
+                  placeholder="Message…"
                   className="flex-1 border px-2 py-1 rounded"
                 />
                 <button
-                  onClick={sendMessage}
+                  onClick={send}
                   disabled={!newMsg.trim()}
-                  className="bg-green-600 text-white px-4 rounded disabled:opacity-50"
+                  className="bg-green-600 text-white rounded px-4 disabled:opacity-50"
                 >
                   Envoyer
                 </button>
@@ -240,6 +369,116 @@ export default function CommandesPage() {
           </div>
         </div>
       )}
+    </div>
+  );
+}
+
+// --- Composant modale réception partielle ---
+function ReceptionPartielleModal({ lignes, onClose, onValide, dejaRecues }) {
+  const [checked, setChecked] = useState({});
+  const [qteRecue, setQteRecue] = useState({});
+
+  useEffect(() => {
+    const preset = {};
+    const presetQte = {};
+    (dejaRecues || []).forEach((l) => {
+      if (l.Ref) {
+        preset[l.Ref] = true;
+        presetQte[l.Ref] = l.qty;
+      }
+    });
+    setChecked(preset);
+    setQteRecue(presetQte);
+  }, [dejaRecues]);
+
+  return (
+    <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+      <div className="bg-white p-6 rounded shadow-lg w-[400px]">
+        <h2 className="text-lg font-bold mb-2">Réception partielle</h2>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            const recues = lignes
+              .filter((l) => checked[l.Ref])
+              .map((l) => ({
+                ...l,
+                qty: Number(qteRecue[l.Ref]) || 0,
+              }))
+              .filter((l) => l.qty > 0);
+            onValide(recues);
+          }}
+        >
+          <div className="max-h-60 overflow-auto mb-4">
+            {lignes.map((l) => {
+              const dejaRecueQty = (dejaRecues || []).find(
+                (r) => r.Ref === l.Ref
+              )?.qty || 0;
+              const deja = dejaRecueQty >= Number(l.qty || 0);
+              return (
+                <div
+                  key={l.Ref || l.Designation || Math.random()}
+                  className="flex items-center gap-2 mb-1"
+                >
+                  <input
+                    type="checkbox"
+                    checked={!!checked[l.Ref]}
+                    disabled={deja}
+                    onChange={(e) => {
+                      setChecked((c) => ({ ...c, [l.Ref]: e.target.checked }));
+                      if (e.target.checked && qteRecue[l.Ref] === undefined) {
+                        setQteRecue((q) => ({ ...q, [l.Ref]: l.qty }));
+                      }
+                    }}
+                  />
+                  <span>
+                    {l.Ref} — {l.Designation}
+                    {deja && (
+                      <span className="ml-2 text-green-600 text-xs font-semibold">
+                        (déjà ajouté)
+                      </span>
+                    )}
+                    {!deja && dejaRecueQty > 0 && (
+                      <span className="ml-2 text-orange-600 text-xs font-semibold">
+                        (déjà reçu : {dejaRecueQty}/{l.qty})
+                      </span>
+                    )}
+                  </span>
+                  {checked[l.Ref] && !deja && (
+                    <>
+                      <input
+                        type="number"
+                        min={1}
+                        max={Number(l.qty) || 1}
+                        value={qteRecue[l.Ref] !== undefined ? qteRecue[l.Ref] : l.qty}
+                        onChange={(e) =>
+                          setQteRecue((q) => ({
+                            ...q,
+                            [l.Ref]: e.target.value,
+                          }))
+                        }
+                        className="border px-1 w-16"
+                      />
+                      <span>/ {l.qty}</span>
+                    </>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          <div className="flex gap-2 justify-end">
+            <button
+              type="button"
+              onClick={onClose}
+              className="border px-3 py-1 rounded"
+            >
+              Annuler
+            </button>
+            <button className="bg-green-600 text-white px-3 py-1 rounded">
+              Valider réception
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
