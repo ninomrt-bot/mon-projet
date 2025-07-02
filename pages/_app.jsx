@@ -1,6 +1,6 @@
 // pages/_app.jsx
 import "../styles/globals.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SessionProvider, useSession, signOut } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -122,6 +122,11 @@ function Header() {
 }
 
 export default function App({ Component, pageProps: { session, ...pageProps } }) {
+  useEffect(() => {
+    if (typeof window !== "undefined" && "serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js").catch(() => {});
+    }
+  }, []);
   return (
     <SessionProvider session={session}>
       <Header />

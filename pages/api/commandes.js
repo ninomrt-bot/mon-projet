@@ -13,7 +13,7 @@ import { USERS } from "../../data/users.sample";
 const DATA_FILE    = path.join(process.cwd(), "data",   "commandes.json");
 const STOCK_FILE   = path.join(process.cwd(), "public", "Stock.xlsm");
 const HISTORY_FILE = path.join(process.cwd(), "data",   "stockHistory.json");
-const UPLOAD_DIR   = path.join(process.cwd(), "public", "uploads");
+const UPLOAD_DIR   = path.join(process.cwd(), "uploads");
 
 /* ───────── Helpers JSON ───────── */
 async function readCommandes() {
@@ -106,11 +106,17 @@ export default async function handler(req, res) {
   if(req.method==="POST"){
     if(req.headers["content-type"]?.startsWith("multipart/form-data")){
       await fs.mkdir(UPLOAD_DIR,{recursive:true});
-      const form=formidable({uploadDir:UPLOAD_DIR,keepExtensions:true});
+      const form=formidable({
+        uploadDir:UPLOAD_DIR,
+        keepExtensions:true,
+        maxFileSize:5*1024*1024,
+        filter:part=>part.mimetype==="application/pdf"
+      });
       form.parse(req,async(err,fields,files)=>{
         if(err) return res.status(500).send(err.message);
         const f = Array.isArray(files.file)?files.file[0]:files.file;
-        const url=`/uploads/${f.newFilename}`;
+        if (!f) return res.status(400).send("Fichier manquant");
+        const url=`/api/uploads/${f.newFilename}`;
         const cmd={
           id:uuidv4(),
           fournisseur: fields.fournisseur||"N/A",
@@ -136,7 +142,7 @@ export default async function handler(req, res) {
         id:uuidv4(),
         fournisseur:body.fournisseur||"N/A",
         filename   :body.pdfName||null,
-        url        :body.pdfName?`/uploads/${body.pdfName}`:null,
+        url        :body.pdfName?`/api/uploads/${body.pdfName}`:null,
         lignes     :body.lignes||[],
         statut     :"en cours",
         createdAt  :new Date().toISOString(),
