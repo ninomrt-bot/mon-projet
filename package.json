@@ -12,6 +12,7 @@
         "@heroicons/react": "^2.2.0",
         "@mui/material": "^7.1.0",
         "asana": "^3.0.16",
+        "bcryptjs": "^2.4.3",
         "formidable": "^3.5.4",
         "jspdf": "^3.0.1",
         "jspdf-autotable": "^5.0.2",
