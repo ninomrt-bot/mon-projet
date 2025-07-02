@@ -31,7 +31,8 @@ export const authOptions = {
           id: user.id,
           name: user.name,
           email: user.email,
-          image: user.image
+          image: user.image,
+          role: user.role
         };
       }
     }),
@@ -47,6 +48,7 @@ export const authOptions = {
     async jwt({ token, user, account }) {
       // a) Si connexion via CredentialsProvider : NextAuth a déjà ajouté id/name/email/image à token
       if (user && !account) {
+        if (user.role) token.role = user.role;
         return token;
       }
       // b) Si connexion via Asana : account.provider === "asana" et account.access_token contient l’accessToken Asana
@@ -60,6 +62,7 @@ export const authOptions = {
       if (token.name) session.user.name = token.name;
       if (token.email) session.user.email = token.email;
       if (token.image) session.user.image = token.image;
+      if (token.role) session.user.role = token.role;
       // 2) Transférer asanaAccessToken (cas AsanaProvider)
       if (token.asanaAccessToken) {
         session.user.asanaAccessToken = token.asanaAccessToken;

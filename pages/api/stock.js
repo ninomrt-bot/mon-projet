@@ -32,6 +32,11 @@ export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
   if (!session) return res.status(401).json({ error: "Non authentifié" });
   const user = session.user.name;
+  const isAdmin = session.user.role === "admin";
+
+  if (["POST", "PUT", "DELETE"].includes(req.method) && !isAdmin) {
+    return res.status(403).json({ error: "Accès réservé aux admins" });
+  }
 
   // 2) Lecture du classeur
   const buffer   = await readFile(STOCK_FILE);
