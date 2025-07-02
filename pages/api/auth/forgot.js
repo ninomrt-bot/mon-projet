@@ -16,7 +16,14 @@ export default async function handler(req, res) {
 
   const token = createResetToken(user.id);
   const transporter = getTransporter();
+  
+  const baseUrl =
+    process.env.NEXTAUTH_URL ||
+    `${req.headers["x-forwarded-proto"] || "http"}://${req.headers.host}`;
+  const resetUrl = `${baseUrl}/reset?token=${token}`;
+
   const resetUrl = `${process.env.NEXTAUTH_URL}/reset?token=${token}`;
+
   try {
     await transporter.sendMail({
       from: `"Stock App"<${process.env.SMTP_USER}>`,

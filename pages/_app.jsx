@@ -101,7 +101,7 @@ function Header() {
               <button
                 onClick={() => {
                   setShowLogoutConfirm(false);
-                  signOut({ callbackUrl: `${window.location.origin}/login` });
+                  signOut({ callbackUrl: "http://192.168.128.79:3000/login" });
                 }}
                 className="px-4 py-1 bg-red-600 text-white rounded"
               >
