@@ -1,59 +1,10 @@
 // pages/api/auth/[...nextauth].js
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import AsanaProvider from "../../../lib/providers/asana"; 
+import AsanaProvider from "../../../lib/providers/asana";
+import { USERS } from "../../../data/users.sample";
+import bcrypt from "bcryptjs";
 
-// Liste des utilisateurs internes (CredentialsProvider) avec leur image
-const USERS = [
-  {
-    id: "1",
-    username: "nino.marquet",
-    password: "1",
-    name: "Nino Marquet",
-    email: "nino.marquet@stirweld.com",
-    image: "/photo_user/Ninomarquet.jpg"
-  },
-  {
-    id: "2",
-    username: "anthony.trouve",
-    password: "2",
-    name: "Anthony Trouvé",
-    email: "anthony.trouve@stirweld.com",
-    image: "/photo_user/Anthonytrouvé.jpg"
-  },
-  {
-    id: "3",
-    username: "dominique.dubourg",
-    password: "3",
-    name: "Dominique Dubourg",
-    email: "dominique.dubourg@stirweld.com",
-    image: "/photo_user/Dominiquedubourg.jpg"
-  },
-  {
-    id: "4",
-    username: "gabin.dubourg",
-    password: "4",
-    name: "Gabin Dubourg",
-    email: "gabin.dubourg@stirweld.com",
-    image: "/photo_user/Gabindubourg.jpg"
-  },
-  {
-    id: "5",
-    username: "gabin.vigor",
-    password: "leplusbeau",
-    name: "Gabin Vigor",
-    email: "gabin.vigor@stirweld.com",
-    image: "/photo_user/Gabinvigor.jpg"
-  },
-  {
-    id: "5",
-    username: "admin",
-    password: "12345",
-    name: "admin",
-    email: "admin",
-    image: "/photo_user/Ninomarquet.JPG"
-  }
-];
 
 export const authOptions = {
   session: {
@@ -68,12 +19,12 @@ export const authOptions = {
         password: { label: "Mot de passe", type: "password" }
       },
       async authorize(credentials) {
-        const user = USERS.find(
-          (u) =>
-            u.username === credentials.username &&
-            u.password === credentials.password
-        );
+        const user = USERS.find((u) => u.username === credentials.username);
         if (!user) {
+          return null;
+        }
+        const ok = await bcrypt.compare(credentials.password, user.passwordHash);
+        if (!ok) {
           return null;
         }
         return {

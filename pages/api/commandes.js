@@ -6,7 +6,8 @@ import nodemailer         from "nodemailer";
 import XLSX               from "xlsx";
 import { v4 as uuidv4 }   from "uuid";
 import { getServerSession } from "next-auth/next";
-import { authOptions, USERS } from "./auth/[...nextauth]";
+import { authOptions } from "./auth/[...nextauth]";
+import { USERS } from "../../data/users.sample";
 
 /* ───────── Chemins ───────── */
 const DATA_FILE    = path.join(process.cwd(), "data",   "commandes.json");
