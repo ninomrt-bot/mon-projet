@@ -68,5 +68,5 @@ model StockItem {
   qteStock     Int
   qteMini      Int
   qteCmd       Int
-  reception    Boolean
+  reception    Int
 }
