@@ -1,0 +1,59 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id       Int      @id @default(autoincrement())
+  email    String   @unique
+  name     String?
+  password String
+  role     String   @default("user")
+  orders   Order[]
+}
+
+model Product {
+  id         Int         @id @default(autoincrement())
+  name       String
+  quantity   Int         @default(0)
+  alerts     Alert[]
+  orderItems OrderItem[]
+}
+
+model Order {
+  id        Int         @id @default(autoincrement())
+  type      String
+  userId    Int
+  user      User        @relation(fields: [userId], references: [id])
+  items     OrderItem[]
+  createdAt DateTime     @default(now())
+}
+
+model OrderItem {
+  id        Int     @id @default(autoincrement())
+  orderId   Int
+  productId Int
+  quantity  Int
+  order     Order   @relation(fields: [orderId], references: [id])
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model Alert {
+  id        Int     @id @default(autoincrement())
+  productId Int
+  threshold Int
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model History {
+  id        Int      @id @default(autoincrement())
+  action    String
+  productId Int
+  quantity  Int
+  userId    Int?
+  createdAt DateTime @default(now())
+}

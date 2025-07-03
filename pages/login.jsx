@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LoginPage() {
   const { data: session, status } = useSession();
@@ -24,12 +25,17 @@ export default function LoginPage() {
 
     const res = await signIn("credentials", {
       redirect: false,
-      username: e.target.username.value,
+      username: e.target.email.value,
       password: e.target.password.value,
     });
 
     if (res.error) {
-      setError("Nom d’utilisateur ou mot de passe invalide");
+      if (res.error.startsWith("LOCKED:")) {
+        const min = res.error.split(":" )[1];
+        setError(`Trop de tentatives. Réessayez dans ${min} minute(s).`);
+      } else {
+        setError("Nom d’utilisateur ou mot de passe invalide");
+      }
     } else {
       router.replace("/");
     }
@@ -49,15 +55,15 @@ export default function LoginPage() {
         <h1 className="text-xl font-bold text-center">Connexion</h1>
         {error && <div className="text-red-600 text-center">{error}</div>}
 
-        {/* Champ utilisateur */}
+        {/* Champ email */}
         <div>
-          <label htmlFor="username" className="block text-sm font-medium">
-            Utilisateur
+          <label htmlFor="email" className="block text-sm font-medium">
+            Email
           </label>
           <input
-            id="username"
-            name="username"
-            type="text"
+            id="email"
+            name="email"
+            type="email"
             required
             className="mt-1 block w-full border px-2 py-1 rounded focus:outline-none focus:ring focus:border-blue-300"
           />
@@ -96,6 +102,9 @@ export default function LoginPage() {
         >
           Se connecter
         </button>
+        <Link href="/forgot" className="text-blue-600 underline text-sm text-center block">
+          Mot de passe oublié ?
+        </Link>
 
         {/* On retire le bouton Asana et le séparateur */}
         {/* 

@@ -2,8 +2,14 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import AsanaProvider from "../../../lib/providers/asana";
-import { USERS } from "../../../data/users.sample";
+import prisma from "../../../lib/prisma";
 import bcrypt from "bcryptjs";
+import {
+  isLocked,
+  recordFailed,
+  clearAttempts,
+  getPasswordHash
+} from "../../../lib/loginSecurity";
 
 
 export const authOptions = {
@@ -19,19 +25,29 @@ export const authOptions = {
         password: { label: "Mot de passe", type: "password" }
       },
       async authorize(credentials) {
-        const user = USERS.find((u) => u.username === credentials.username);
-        if (!user) {
-          return null;
+        const user = await prisma.user.findUnique({
+          where: { email: credentials.username },
+        });
+        if (!user) return null;
+
+        const lock = isLocked(user.id);
+        if (lock.locked) {
+          throw new Error(`LOCKED:${Math.ceil(lock.remainingMs / 60000)}`);
         }
-        const ok = await bcrypt.compare(credentials.password, user.passwordHash);
+
+        const pwdHash = getPasswordHash(String(user.id), user.password);
+        const ok = await bcrypt.compare(credentials.password, pwdHash);
         if (!ok) {
+          recordFailed(user.id);
           return null;
         }
+
+        clearAttempts(user.id);
         return {
-          id: user.id,
+          id: String(user.id),
           name: user.name,
           email: user.email,
-          image: user.image
+          role: user.role,
         };
       }
     }),
@@ -47,6 +63,7 @@ export const authOptions = {
     async jwt({ token, user, account }) {
       // a) Si connexion via CredentialsProvider : NextAuth a déjà ajouté id/name/email/image à token
       if (user && !account) {
+        if (user.role) token.role = user.role;
         return token;
       }
       // b) Si connexion via Asana : account.provider === "asana" et account.access_token contient l’accessToken Asana
@@ -60,6 +77,7 @@ export const authOptions = {
       if (token.name) session.user.name = token.name;
       if (token.email) session.user.email = token.email;
       if (token.image) session.user.image = token.image;
+      if (token.role) session.user.role = token.role;
       // 2) Transférer asanaAccessToken (cas AsanaProvider)
       if (token.asanaAccessToken) {
         session.user.asanaAccessToken = token.asanaAccessToken;
@@ -72,7 +90,8 @@ export const authOptions = {
     signIn: "/login"
   },
 
-  secret: process.env.NEXTAUTH_SECRET
+  secret: process.env.NEXTAUTH_SECRET,
+  trustHost: true
 };
 
 export default NextAuth(authOptions);
