@@ -34,7 +34,8 @@ export default function CommandesPage() {
 
   const kanban = useMemo(() => {
     const cols = STATUTS.reduce((o, s) => ({ ...o, [s]: [] }), {});
-    (cmds || []).forEach((c) => {
+    if (!Array.isArray(cmds)) return cols;
+    cmds.forEach((c) => {
       const st = STATUTS.includes(c.statut) ? c.statut : "en cours";
       cols[st].push(c);
     });
@@ -453,7 +454,7 @@ function ReceptionPartielleModal({ lignes, onClose, onValide, dejaRecues }) {
                         onChange={(e) =>
                           setQteRecue((q) => ({
                             ...q,
-                            [l.Ref]: e.target.value,
+                            [l.Ref]: Number(e.target.value), // Correction ici
                           }))
                         }
                         className="border px-1 w-16"

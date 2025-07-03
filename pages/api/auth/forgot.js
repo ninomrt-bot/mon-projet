@@ -1,4 +1,8 @@
+
 import prisma from "../../../lib/prisma";
+
+import { USERS } from "../../../data/users.sample";
+
 import getTransporter from "../../../lib/smtp";
 import { createResetToken } from "../../../lib/loginSecurity";
 
@@ -11,15 +15,21 @@ export default async function handler(req, res) {
   const { email } = req.body || {};
   if (!email) return res.status(400).json({ error: "email required" });
 
+
   const user = await prisma.user.findUnique({ where: { email } });
+
+  const user = USERS.find(u => u.email === email || u.username === email);
+
   if (!user) return res.status(200).json({ ok: true });
 
   const token = createResetToken(user.id);
   const transporter = getTransporter();
+
   const baseUrl =
     process.env.NEXTAUTH_URL ||
     `${req.headers["x-forwarded-proto"] || "http"}://${req.headers.host}`;
   const resetUrl = `${baseUrl}/reset?token=${token}`;
+
   try {
     await transporter.sendMail({
       from: `"Stock App"<${process.env.SMTP_USER}>`,
@@ -34,4 +44,8 @@ export default async function handler(req, res) {
   res.status(200).json({ ok: true });
 }
 
+
 export const config = { api: { bodyParser: true } };
+
+export const config = { api: { bodyParser: true } };
+

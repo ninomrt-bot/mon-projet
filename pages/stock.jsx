@@ -26,7 +26,7 @@ export default function StockPage() {
   // 1 — Auth & données
   const { data: session, status } = useSession();
   const router = useRouter();
-  const { data: apiStock, error, mutate } = useSWR("/api/stock", fetcher);
+  const { data: apiStock, error, mutate } = useSWR("/api/stock-db", fetcher);
 
   // 2 — Récupérer ref et highlight depuis l’URL
   const { ref: highlightRef, highlight } = router.query;
@@ -147,7 +147,7 @@ export default function StockPage() {
     await Promise.all(
       HEADERS.map(async (h) => {
         if (String(editItem[h] ?? "") !== String(formVals[h] ?? "")) {
-          await fetch("/api/stock", {
+          await fetch("/api/stock-db", {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -163,7 +163,7 @@ export default function StockPage() {
     setShowEdit(false);
   }
   async function onDelete() {
-    await fetch(`/api/stock?Ref=${encodeURIComponent(editItem.Ref)}`, {
+    await fetch(`/api/stock-db?Ref=${encodeURIComponent(editItem.Ref)}`, {
       method: "DELETE"
     });
     await mutate();
@@ -184,7 +184,7 @@ export default function StockPage() {
   }
   async function onAdd(e) {
     e.preventDefault();
-    await fetch("/api/stock", {
+    await fetch("/api/stock-db", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newItem)

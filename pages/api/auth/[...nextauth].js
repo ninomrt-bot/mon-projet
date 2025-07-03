@@ -35,7 +35,16 @@ export const authOptions = {
           throw new Error(`LOCKED:${Math.ceil(lock.remainingMs / 60000)}`);
         }
 
+
         const pwdHash = getPasswordHash(String(user.id), user.password);
+
+        const lock = isLocked(user.id);
+        if (lock.locked) {
+          throw new Error(`LOCKED:${Math.ceil(lock.remainingMs / 60000)}`);
+        }
+
+        const pwdHash = getPasswordHash(user.id, user.passwordHash);
+
         const ok = await bcrypt.compare(credentials.password, pwdHash);
         if (!ok) {
           recordFailed(user.id);
@@ -47,7 +56,12 @@ export const authOptions = {
           id: String(user.id),
           name: user.name,
           email: user.email,
+
           role: user.role,
+
+          image: user.image,
+          role: user.role
+
         };
       }
     }),

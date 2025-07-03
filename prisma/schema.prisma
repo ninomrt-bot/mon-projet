@@ -1,7 +1,16 @@
+
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma"
+}
+
+
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
 
 generator client {
   provider = "prisma-client-js"
@@ -57,3 +66,24 @@ model History {
   userId    Int?
   createdAt DateTime @default(now())
 }
+
+model User {
+  id       Int    @id @default(autoincrement())
+  email    String @unique
+  name     String?
+  password String
+}
+
+model StockItem {
+  id           Int     @id @default(autoincrement())
+  marque       String
+  ref          String
+  designation  String
+  fournisseurs String
+  qteStock     Int
+  qteMini      Int
+  qteCmd       Int
+  reception    Boolean
+}
+
+
