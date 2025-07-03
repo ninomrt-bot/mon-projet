@@ -25,7 +25,7 @@ export default function LoginPage() {
 
     const res = await signIn("credentials", {
       redirect: false,
-      username: e.target.username.value,
+      username: e.target.email.value,
       password: e.target.password.value,
     });
 
@@ -55,15 +55,15 @@ export default function LoginPage() {
         <h1 className="text-xl font-bold text-center">Connexion</h1>
         {error && <div className="text-red-600 text-center">{error}</div>}
 
-        {/* Champ utilisateur */}
+        {/* Champ email */}
         <div>
-          <label htmlFor="username" className="block text-sm font-medium">
-            Utilisateur
+          <label htmlFor="email" className="block text-sm font-medium">
+            Email
           </label>
           <input
-            id="username"
-            name="username"
-            type="text"
+            id="email"
+            name="email"
+            type="email"
             required
             className="mt-1 block w-full border px-2 py-1 rounded focus:outline-none focus:ring focus:border-blue-300"
           />
