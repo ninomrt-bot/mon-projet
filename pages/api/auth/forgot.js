@@ -1,8 +1,6 @@
 
 import prisma from "../../../lib/prisma";
 
-import { USERS } from "../../../data/users.sample";
-
 import getTransporter from "../../../lib/smtp";
 import { createResetToken } from "../../../lib/loginSecurity";
 
@@ -17,8 +15,6 @@ export default async function handler(req, res) {
 
 
   const user = await prisma.user.findUnique({ where: { email } });
-
-  const user = USERS.find(u => u.email === email || u.username === email);
 
   if (!user) return res.status(200).json({ ok: true });
 
@@ -44,8 +40,6 @@ export default async function handler(req, res) {
   res.status(200).json({ ok: true });
 }
 
-
-export const config = { api: { bodyParser: true } };
 
 export const config = { api: { bodyParser: true } };
 

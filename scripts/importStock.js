@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const xlsx = require('xlsx');
-const { PrismaClient } = require('../lib/generated/prisma');
+const { PrismaClient } = require('../lib/generated/prisma/index.js');
 
 const prisma = new PrismaClient();
 
